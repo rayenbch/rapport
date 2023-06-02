@@ -10,15 +10,15 @@
 \contentsline {subsection}{\numberline {1.3.3}\Large Cloud}{4}{subsection.1.3.3}%
 \contentsline {subsubsection}{\numberline {1.3.3.1}\Large Modèles de services }{4}{subsubsection.1.3.3.1}%
 \contentsline {subsubsection}{\numberline {1.3.3.2}\Large Les modèles de déploiement }{6}{subsubsection.1.3.3.2}%
-\contentsline {subsection}{\numberline {1.3.4}\Large méthodologie de développement }{6}{subsection.1.3.4}%
-\contentsline {subsubsection}{\numberline {1.3.4.1}\Large Méthode classique}{7}{subsubsection.1.3.4.1}%
-\contentsline {subsubsection}{\numberline {1.3.4.2}\Large Méthode du processus unifié }{7}{subsubsection.1.3.4.2}%
-\contentsline {subsubsection}{\numberline {1.3.4.3}\Large Méthode agile }{8}{subsubsection.1.3.4.3}%
-\contentsline {subsubsection}{\numberline {1.3.4.4}\Large Acteurs de la méthode agile Scrum}{8}{subsubsection.1.3.4.4}%
-\contentsline {subsubsection}{\numberline {1.3.4.5}\Large Évènements de la méthode agile Scrum }{8}{subsubsection.1.3.4.5}%
-\contentsline {subsubsection}{\numberline {1.3.4.6} \Large Les artefacts}{9}{subsubsection.1.3.4.6}%
-\contentsline {subsection}{\numberline {1.3.5}\Large Méthode choisir }{9}{subsection.1.3.5}%
-\contentsline {section}{\numberline {1.4}\LARGE Conclusion}{9}{section.1.4}%
+\contentsline {section}{\numberline {1.4}\Large méthodologie de développement }{6}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}\Large Méthode classique}{7}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}\Large Méthode du processus unifié }{7}{subsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.2.1}\Large Méthode agile }{8}{subsubsection.1.4.2.1}%
+\contentsline {subsubsection}{\numberline {1.4.2.2}\Large Acteurs de la méthode agile Scrum}{8}{subsubsection.1.4.2.2}%
+\contentsline {subsubsection}{\numberline {1.4.2.3}\Large Évènements de la méthode agile Scrum }{8}{subsubsection.1.4.2.3}%
+\contentsline {subsubsection}{\numberline {1.4.2.4} \Large Les artefacts}{9}{subsubsection.1.4.2.4}%
+\contentsline {subsection}{\numberline {1.4.3}\Large Méthode choisir }{9}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}\LARGE Conclusion}{9}{section.1.5}%
 \contentsline {chapter}{\numberline {2} Etude de l'existant}{10}{chapter.2}%
 \contentsline {section}{\numberline {2.1}\LARGE Les solutions existantes}{11}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}\LARGE Azure Devops}{11}{subsection.2.1.1}%
