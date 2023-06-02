@@ -1,0 +1,454 @@
+
+\chapter{ Planification de projet}
+%\tableofcontents
+\newpage
+\textbf{\huge Introduction}\\[0.5cm] 
+
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3}
+L'objectif de l'étape d'analyse des besoins et de spécification est de déterminer les fonctionnalités différentes attendues du système. Au cours de ce chapitre, nous présentons d'abord l'étude des besoins fonctionnels et non fonctionnels. Ensuite, nous allons voir les acteurs concernés dans notre système. Ensuite, ces exigences seront exprimées sous forme de diagramme de cas d'utilisation qui sera détaillé par des scénarios possibles.
+}
+\section{\LARGE Acteur}
+\texttt{}\\[0.1cm]
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3} En génie logiciel et plus particulièrement en UML, un acteur est une entité qui définit le rôle joué par un utilisateur ou par un système qui interagit avec le système modélisé.\cite{12}\\\texttt{}\\[0.01cm]%add url
+-- Développeur :C'est l'utilisateur qui peut modifier le code source d'un objectif donné (ajouter une fonctionnalité, corriger l'erreur, etc.) puis les déposer dans Github et ensuite suivre la compilation de l'application.\\\texttt{}\\[0.01cm]
+-- Ingénieur DevOps: Est considéré comme l'acteur principal, son rôle est la mise en place du cluster, pipeline, surveiller l'état du système et la configurer son infrastructure.\\\texttt{}\\[0.01cm]
+-- Client: C'est l'utilisateur qui peut accéder à l'application déployée sur le cluster au moyen d'un site Web.\\\texttt{}\\[0.01cm]
+}
+
+\section{\LARGE Besoins fonctionnels}
+\texttt{}\\[0.1cm]
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3} Pour le bon fonctionnement de notre projet, il est nécessaire de définir  concrètement les fonctionnalités qui seront implémentées dans le but de les rendre plus appropriées aux besoins de l'entreprise.
+Pour cela nous avons allons présenter les besoins fonctionnels de notre projet:\\\texttt{}\\[0.01cm]
+-- Mettre en place une solution hybride qui permet à l'entreprise d'exécuter des applications localement tout en profitant des avantages des services cloud.\\\texttt{}\\[0.01cm]
+– Orchestrer les conteneurs pour garantir une haute disponibilité pour le déploiement et l'exécution des applications.\\\texttt{}\\[0.01cm]
+– Automatiser le processus de déploiement avec Ansible pour aider avec les charges de travail.\\\texttt{}\\[0.01cm]
+– Surveiller d’état du déploiement.\\\texttt{}\\[0.01cm]
+– Créer un répertoire pour toutes les images Docker dans ECR (Elastic Container Registry).\\\texttt{}\\[0.01cm]
+-- Enregistrer les artefacts dans un répertoire Nexus.\\\texttt{}\\[0.01cm]
+– Utiliser Prometheus et Grafana pour surveiller le cluster kubernetes.\\\texttt{}\\[0.01cm]
+– Assurer la qualité de code source avec SonarQube.\\\texttt{}\\[0.01cm]
+– Gérer automatique des étapes de déploiement de clusters.}
+
+
+\section{\LARGE Besoins non-fonctionnels}
+\texttt{}\\[0.1cm]
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3} Les besoins non fonctionnels établissent toutes les conditions nécessaires au bon fonctionnement du système et à l'amélioration de la qualité des services. Et pour répondre aux exigences fonctionnelles, notre projet doit respecter une série de propriété contribuant à une meilleure qualité de la solution obtenue.
+Nous déterminerons l'ensemble des contraintes à respecter pour garantir le bon déroulement du projet. Parmi les critères nous citons :\\\texttt{}\\[0.01cm]
+--Sécurité: Notre solution permettra de garantir la sécurité des données, des applications et des utilisateurs.\\\texttt{}\\[0.01cm]
+--Performance: Rapidité du déploiement d'application sur des pods kubernetes et assurer la bonne exécution de ses applications.\\texttt{}\\[0.01cm]
+--Disponibilité: Les clusters Kubernetes sont conçus pour permettre une évolutivité horizontale, ce qui signifie que les applications peuvent être déployées sur plusieurs nœuds et gérer de manière dynamique les charges de travail en fonction des besoins.\\\texttt{}\\[0.01cm]
+--Maintenance: La modification d'un déploiement dans un kubernetes cluster doit être facilement maintenable et adaptable à de nouvelles exigences de sorte qu'il peut y avoir un changement ou l'ajout de nouvelle fonctionnalité.\\\texttt{}\\[0.01cm]
+--Portabilité: Le système doit être flexible et capable de prendre en charge de nouvelles fonctions et extensions et doit pouvoir fonctionner avec un nouveau composant (RAM,stockage) et avec une modification minimale.\\\texttt{}\\[0.01cm]
+--Extensibilité: Le système doit maintenir ses hautes performances sous pression et ajuster ses paramètres pour répondre à la demande, possibilité d’ajouter des nœuds en cas de montée en charge. \\\texttt{}\\[0.01cm]
+}
+\section{\LARGE Product Backlog}
+\texttt{}\\[0.1cm]
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3}
+Product Backlog est une liste de toutes les tâches connues pour être traitées par le produit. Il s'agit de la seule source des besoins pour toute modification du produit. Les besoins sont précisés par les user stories. Un user story se présente sous la forme suivante (voir tableau 3.1): }
+\begin{table}[H]
+  \begin{center}
+    \resizebox{1.1\textwidth}{!}{%
+  \begin{tabular}{|c|c|c| p{5cm}|c|}
+    \hline
+    id & Theme & Acteur & Description & Priorité \\
+    \hline
+    id 1 & gérer code source & Développeur & il permet de déposer le code ou le récupérer  & élevée \\
+    \hline
+    id2 & Suivre build d'application & Développeur & il peut voir la compilation de l'application & élevée \\
+    \hline
+    id3 & analyser qualité de code & Ingénieur DEVOPS & il permet  d'analyser le code source d'un projet et de détecter les erreurs de qualité avec SonarQube . &  élevée \\
+    \hline
+    id 4  & gérer liste des images docker & Ingénieur DEVOPS &  consiste à répertorier et organiser les images Docker qui ont été créées .&  élevée \\
+    \hline
+    id 5 & gérer les artefacts d'application & Ingénieur DEVOPS &  consiste à stocker et à gérer les différents composants d'une application, les bibliothèques, les configurations, les scripts et autres ressources .&  élevée \\
+    \hline
+    id 6 & Configurer l'architecture cloud & Ingénieur DEVOPS & consiste à concevoir et à déployer une infrastructure informatique dans le cloud, en utilisant des services cloud pour répondre aux besoins. &  élevée \\
+    \hline
+    id 7 & Configurer le pipline & Ingénieur DEVOPS &  est un processus important pour automatiser le processus de développement, de test et de déploiement d'une application. &  élevée \\
+    \hline
+    id 8  & Surveiller l'etat du cluster & Ingénieur DEVOPS &  surveiller l'état de tous les nœuds dans le cluster pour s'assurer qu'ils sont en bon état de fonctionnement et qu'ils répondent aux demandes des applications. &  élevée \\
+    \hline
+    id 9 & gérer la configuration du deploiement & Ingénieur DEVOPS & assurer que les applications sont déployées de manière cohérente et fiable &  élevée \\
+    \hline
+    id 10 & acces a l'application deployée & Client &configurer pour s'assurer qu'elle est accessible uniquement par les utilisateurs autorisés. &  élevée \\
+    \hline
+  \end{tabular}%
+    }
+  \end{center}
+  \caption{Tableau du Product Back-log}
+  \end{table}
+  \texttt{}\\[0.5cm]
+
+\section{\LARGE  Conception de système}
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3}
+Dnas ce qui suit,nous allons présenter les différent diagrammes de conception. }//[0.2cm]
+\subsection{\Large  Diagramme de cas d'utilisation Global}
+\texttt{}\\[0.1cm]
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3}
+Le diagramme de cas d'utilisation global est utilisé pour une représentation du comportement fonctionnel d'un système logiciel.\\\texttt{}\\[0.01cm]
+Le diagramme ci-dessous présente les cas d'utilisation généraux et les acteurs qui interagissent avec le système.(Voir figure 3.2)}
+\begin{figure}[H]
+  \begin{center}
+  
+      \includegraphics[width=12cm]{Use case.drawio.png}
+
+  \end{center}
+  
+  \caption{Diagramme de cas d'utilisation Globale}
+\end{figure}
+\subsection{\LARGE  Raffinement des cas d’utilisation}
+\texttt{}\\[0.1cm]
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3}
+Dans ce qui suit , le raffinnement des différents cas d'utilisation.}\\[0.2cm]
+\subsubsection{\Large Cas d’utilisation "Gérer code source"}
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3} \\\texttt{}\\[0.01cm]
+Dans cette section, nous décrirons de façon détaillée ce cas d'utilisation.\\\texttt{}\\[0.01cm]
+}
+\begin{figure}[H]
+  \begin{center}
+  
+      \includegraphics[width=15cm]{usecase1.drawio.png}
+
+  \end{center}
+  
+  \caption{Cas d'utilisation:Gérer code source }
+\end{figure}
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3}
+Pour expliquer  le diagramme de cas d’utilisation, nous représentons la description textuelle du principales fonctionnalités mentionnées ci-dessus (Voir tableau 3.2): \\}
+
+\begin{center}
+ \begin{table}[H] 
+ \centering
+ \resizebox{1.1\textwidth}{!}{%
+ \begin{tabular}{|c|p{13cm}|}
+ \hline
+ Titre & Gérer code source\\
+ \hline
+ Acteur & Développeur \\
+ \hline
+ Description & le développeur peut déposer ou récupérer le code à travers le command "pull" ou "push".\\
+ \hline
+ Pré conditions & Une connexion établie entre le PC du développeur et le répertoire Git de l'application. \\
+ \hline
+ Post conditions & Code envoyé au répertoire git. \\
+ \hline 
+ \multirow{3}{*}{Scénario nominal} & 1- Avoir un accès au répertoire. \\
+ & 2 - Gérer code source. \\
+ & 3 - Déposer ou récuperer  le code dans le répertoire github. \\
+ \hline
+ \multirow{3}{*}{Scénario alternatif} & 1- La connexion entre la machine du développeur et Git ne peut pas être établie. \\
+ & 2 - Le code ne peut pas être envoyé. \\
+ & 3 - Retour à l'étape 1 du Scénario nominal. \\ 
+ \hline
+ \end{tabular}%
+ }
+ \caption{Description de cas d’utilisation}
+ \end{table}
+\end{center}
+
+
+   \subsubsection{\Large Cas d’utilisation "Suivi de la build d'application"}
+   \textsf{\fontfamily{qtm}\selectfont\scalefont{1.3}
+Dans cette section, nous décrirons de façon détaillée ce cas d'utilisation.\\\texttt{}\\[0.01cm]
+}
+\begin{figure}[H]
+  \begin{center}
+  
+      \includegraphics[width=15cm]{UseCase2.drawio.png}
+
+  \end{center}
+  
+  \caption{Cas d'utilisation:Suivie la build d'application }
+\end{figure}
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3}
+Pour expliquer  le diagramme de cas d’utilisation, nous représentons la description textuelle des principales fonctionnalités mentionnées ci-dessus(voir tableau 3.3 ) : \\}
+\begin{center}
+   \begin{table}[H]  
+     \centering
+     \resizebox{1.1\textwidth}{!}{%
+     \begin{tabular}{|c|p{13cm}|}
+      \hline
+      Titre &  Suivi du build de l'application\\
+      \hline
+      Acteur & Développeur \\
+      \hline
+      Description & le développeur peut suive la construction d'application pour connaître si la modification ajoutée au code source est valide ou non.\\
+      \hline
+      Pré conditions & Une connexion  établie entre le développeur et Github actions. \\
+      \hline
+      Post conditions & affichage de Dashboard Github Actions. \\
+      \hline 
+      \multirow{3}{*}{Scénario nominal} & 1- Avait un accès au Dashbord \\ 
+      & 2- Suivre du build d'application \\
+      & 3- L'observation de la construction de l'application rapporte un succès.\\
+      \hline
+      \multirow{2}{*}{Scénario alternatif} & 1 - La connexion entre développeur et Github Actions ne peut pas être établie. \\
+      & 2 - Retour à l'étape 1 du Scénario nominal.\\ 
+      \hline
+      \end{tabular}%
+     }
+   \caption{Description de cas d’utilisation}
+   \end{table}
+   \end{center}
+   \subsubsection{\Large Cas d'utilisation"Gérer la configuration de déploiement"}
+   \textsf{\fontfamily{qtm}\selectfont\scalefont{1.3} Dans cette section, nous décrirons de façon détaillée ce cas d'utilisation(voir figure 3.4).\\\texttt{}\\[0.01cm]
+   }
+   \begin{figure}[H]
+    \begin{center}
+    
+        \includegraphics[width=15cm]{UserCase3.drawio.png}
+  
+    \end{center}
+    
+    \caption{Cas d'utilisation:Gérer la configuration de déploiement}
+  \end{figure}
+   \textsf{\fontfamily{qtm}\selectfont\scalefont{1.3}
+   Pour expliquer  le diagramme de cas d’utilisation, nous représentons la description textuelle des principales fonctionnalités mentionnées ci-dessus (voir table 3.4)  : \\}
+   \begin{center}
+      \begin{table}[H]  
+        \centering
+        \resizebox{1.1\textwidth}{!}{%
+        \begin{tabular}{|c|p{13cm}|}
+         \hline
+         Titre & Gérer la configuration de déploiement\\
+         \hline
+         Acteur & Ingénieur DevOps \\
+         \hline
+         Description & L'ingénieur DevOps gére la configuration de déploiement pour assurer la meilleure performance du cluster.\\
+         \hline
+         Pré conditions & Fonctionnement correct du cluster EKS. \\
+         \hline
+         Post conditions & Une configuration ou modification d'une configuration déjà existe. \\
+         \hline 
+        \multirow{2}{*}{Scénario nominal} & 1 - Réagir la configuration  du déploiement. \\
+        & 2 - La configuration est lancée dans le contrôle plane d'EKS.\\
+         \hline
+        \multirow{3}{*}{Scénario alternatif} & 1 - La  nouvelle configuration n'est pas flexible. \\
+        & 2 - Un problème apparaît causé par la nouvelle configuration.  \\
+        & 3 - Retour à l'étape 1 du Scénario nominal.\\
+         \hline
+         \end{tabular}%
+         }
+      \caption{Description de cas d’utilisation}
+      \end{table}
+      \end{center}
+      \subsubsection{\Large Cas utilisation"Gérer liste des images Docker"}
+      \textsf{\fontfamily{qtm}\selectfont\scalefont{1.3} 
+      Dans cette section, nous décrirons de façon détaillée le cas d'utilisation (voir figure 3.5).\\\texttt{}\\[0.01cm]
+      }
+      \begin{figure}[H]
+        \begin{center}
+        
+            \includegraphics[width=15cm]{usecase5.drawio.png}
+      
+        \end{center}
+        
+        \caption{Cas d'utilisation:Gérer liste des images Docker}
+      \end{figure}
+      \textsf{\fontfamily{qtm}\selectfont\scalefont{1.3}
+      Pour expliquer  le diagramme de cas d’utilisation, nous représentons la description textuelle des principales fonctionnalités mentionnées ci-dessus (voir table 3.5) : \\}
+      \begin{center}
+         \begin{table}[H]  
+           \centering
+           \resizebox{1.1\textwidth}{!}{%
+           \begin{tabular}{|c|p{13cm}|}
+            \hline
+            Titre & Gérer liste des images Docker\\
+            \hline
+            Acteur & Ingénieur DevOps \\
+            \hline
+            Description & L'ingénieur DevOps gére la liste des images Docker\\
+            \hline
+            Pré conditions & Connexion au répertoire de l'application dans ECR. \\
+            \hline
+            Post conditions & un image modifiée ,supprimée ou ajoutée. \\
+            \hline 
+           \multirow{3}{*}{Scénario nominal} & 1 - Configurer la liste des images Docker .\\
+           & 2 - Déposer ou récuperer le code dans le répertoire ECR. \\
+           & 3 - L'image est enregistrée dans la répertoire ECR.\\
+            \hline
+            \multirow{3}{*}{Scénario alternatif} & 1 - la connexion ou l'enregistrement de image n'est pas valide.  \\
+            & 2 - Echec de déposer ou  récuperer l'image Docker .\\
+            & 3 - Retour à l'étape 1 du Scénario nominal.\\
+            \hline
+            \end{tabular}%
+           }
+         \caption{Description de cas d’utilisation}
+         \end{table}
+         \end{center} 
+         
+      \subsubsection{\Large Cas utilisation"Gérer les artefacts d'application"}
+         \textsf{\fontfamily{qtm}\selectfont\scalefont{1.3}
+         Dans cette section, nous décrirons de façon détaillée ce cas d'utilisation (voir figure 3.6).\\\texttt{}\\[0.01cm]
+         }
+         \begin{figure}[H]
+          \begin{center}
+          
+              \includegraphics[width=15cm]{Usecase6.drawio.png}
+        
+          \end{center}
+          
+          \caption{Cas d'utilisation:Gérer les artefacts d'application}
+        \end{figure}
+         \textsf{\fontfamily{qtm}\selectfont\scalefont{1.3}
+         Pour expliquer  le diagramme de cas d’utilisation, nous représentons la description textuelle des principales fonctionnalités mentionnées ci-dessus ( voir table 3.6): \\}
+         \begin{center}
+            \begin{table}[H]  
+              \centering
+              \resizebox{1.1\textwidth}{!}{%
+              \begin{tabular}{|c|p{13cm}|}
+               \hline
+               Titre & Gérer les artefacts d'application\\
+               \hline
+               Acteur & Ingénieur DevOps \\
+               \hline
+               Description & L'ingénieur DevOps gére la liste des artefacts pour assurer l'enregistrement de différentes versions d'application.\\
+               \hline
+               Pré conditions & Connexion HTTP au serveur Nexus. \\
+               \hline
+               Post conditions & Une répertoire avec les différente artefacts d'application.  \\
+               \hline 
+               \multirow{2}{*}{Scénario nominal} & 1 - Configurer l'artifacts d'application . \\
+               & 2 - la connexion est réussite et la modification dans le répertoire est enregistré dans Nexus .\\
+               \hline
+               \multirow{2}{*}{Scénario alternatif} & 1 - La connexion échoue ou la modification n'est pas enregistrée.  \\
+               & 2 - Retour à l'étape 1 du Scénario nominal. \\
+               \hline
+               \end{tabular}%
+              }
+            \caption{Description de cas d’utilisation}
+            \end{table}
+            \end{center}
+\subsection{\Large Diagramme de classe}
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3} Le diagramme de classes est un schéma utilisé en génie logiciel pour présenter les classes et les interfaces du système ainsi que leurs relations.La figure dessous ci-dessous représente le 
+diagramme de classe de notre travail(voir figure 3.7)\cite{13}}
+\begin{figure}[H]
+  \begin{center}
+  
+      \includegraphics[width=18cm]{ClassDiagram.drawio.png}
+
+  \end{center}
+  
+  \caption{Diagramme de classe global}
+\end{figure}
+\subsection{\Large Diagramme de séquence}
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3} Les diagrammes de séquences sont la représentation graphique des interactions entre les acteurs et le système selon un ordre chronologique (voir figure 3.8).\cite{14}}
+\begin{figure}[H]
+  \begin{center}
+  
+      \includegraphics[height=25cm,width=19cm]{Squence.drawio.png}
+
+  \end{center}
+  
+  \caption{Diagramme de séquence global}
+\end{figure}
+\subsection{\Large Diagramme de déploiement}
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3} Un diagramme de déploiement est une vue statique qui sert à représenter l'utilisation de l'infrastructure physique par le système et la manière dont les composants du système sont répartis ainsi que leurs relations entre eux (voir figure 3.9).\cite{15}}
+\begin{figure}[H]
+  \begin{center}
+  
+      \fbox{\includegraphics[height=18cm,width=18cm]{deploiment-1.drawio.png}}
+
+  \end{center}
+  
+  \caption{Diagramme de déploiement global}
+\end{figure}
+\section{\LARGE Application de la méthodologie de développement}
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3}Dans ce qui suit , nous allons presenter l'application de SCRUM à notre problématique.}
+
+\section{\LARGE Planification des sprints}
+\textsf{\fontfamily{qtm}\selectfont\scalefont{1.3} 
+Pour une meilleure optimisation  du développement du projet nous avons divisé le travail sur 5 Sprints présentées comme suit(voir table 3.7):
+}
+\begin{center}
+  \begin{table}[H]  
+    \centering
+    \resizebox{1.1\textwidth}{!}{%
+    \begin{tabular}{|c | p {10cm}| c|}
+     \hline
+     Sprint 0 & Objectifs du sprint & Durée \\
+     \hline
+     
+     %\multirow Sprint1 & Configuration de l'architecture cloud AWS \\
+     
+     Sprint1 & Configuration de l'architecture cloud AWS. &\\
+     \cline{2-2}
+     & Configuration de le cluster EKS. & \\
+   
+     \hline
+     Sprint2 & Configuration de la Pipeline.&\\
+     \hline
+     Sprint3 & Déploiement de l'application sur le cluster. &\\
+     \hline
+     Sprint4 & Configuration du système de la surveillance. & \\
+     \cline{2-2}
+     & Configuration de route53 pour l'application déployée. &\\
+   
+     \hline
+    \end{tabular}%
+   }
+ \caption{Planification des sprints}
+ \end{table}
+ \end{center} 
+ \section{\LARGE Conclusion}
+ \textsf{\fontfamily{qtm}\selectfont\scalefont{1.3} Dans ce chapitre nous avons présentée la spécification de besoin fonctionnel et non fonctionnel. Aussi, nous avons décrit les différents diagrammes de conception puis nous avons présenté la méthodologie de conception. Enfin nous avons réalisé la planification des sprint. Dans le dernier, chapitre 
+ nous passerons à la phase de réalisation du sprint 1.
+}
+
+% \section{\LARGE Développement}
+
+% Intro
+
+% \subsection{Tâches}
+
+% Bla\\
+
+
+% %tableau à taille fixée sur certaines colonnes (param sur la ligne \begin{tabularx}, voir wiki pour plus d'info sur la syntaxe
+% \begin{figure}[!h]
+% \begin{center}
+% \begin{tabularx}{17cm}{|c|p{6cm}|X|}
+%   \hline
+%   Priorité & Nom & Raison\\
+%   \hline
+%   1 & Tache 1 & Doit être vérifié en premier car sinon [...] \tabularnewline
+%   2 & Tache 2 & On doit pouvoir [...] \tabularnewline
+%   3 & Tache 3 & Comme les principales fonctionnalités permettant de tester sont opérationnelles, nous pouvons passer à cette tâche. \tabularnewline
+%   4 & Tache 4 & Parce que [...] \tabularnewline
+%   5 & Tache 5 & La tache 5 fait partie des principales [...]. \tabularnewline
+%   6 & Tache 6 & Dernière fonctionnalité essentielle à mettre en place. \tabularnewline
+%   7 & Tache 7 & Non-essentiel, mais apporterait un plus au projet. \tabularnewline
+%   8 & Tache 8 & Non-essentiel, mais apporterait un plus au projet. \tabularnewline
+%   \hline
+% \end{tabularx}
+% \end{center}
+% \caption{Tableau récapitulatif des tâches}
+% \end{figure}
+
+% \subsection{Tests}
+
+% Bla\\
+
+% \begin{figure}[!h]
+% \begin{center}
+% \begin{tabularx}{17cm}{|p{6cm}|X|}
+%   \hline
+%   Fonctionnalité & Test\\
+%   \hline
+%   Fonction 1 & Quand [...], vérifier [...]. \tabularnewline
+%   & Et quand [...], vérifier [...]. \tabularnewline
+%   Fonction 2 & Vérifier [...]. \tabularnewline
+%   Fonction 3 & Vérifier [...]. \tabularnewline
+%   Fonction 4 & Avoir [...]. \tabularnewline
+%   Fonction 5 & Accéder à [...]. \tabularnewline
+%    & Vérifier que [...]. \tabularnewline
+%   Fonction 6 & Accéder à [...]. \tabularnewline
+%    & Et vérifier [...]. \tabularnewline
+%   Fonction 7 & Installer [...]. \tabularnewline
+%    & Vérifier [...]. \tabularnewline
+%   Fonction 8 & Compter [...]. \tabularnewline
+%   \hline
+% \end{tabularx}
+% \end{center}
+% \caption{Tableau récapitulatif des tests}
+% \end{figure}
