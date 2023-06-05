@@ -11,26 +11,26 @@
 \contentsline {figure}{\numberline {1.9}{\ignorespaces Cycle de vie de projet avec le processus unifié \relax }}{7}{figure.caption.11}%
 \contentsline {figure}{\numberline {1.10}{\ignorespaces Processus de méthode Scrum\relax }}{9}{figure.caption.12}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Azure DevOps\relax }}{11}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Amazon Web Services\relax }}{12}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Google Cloud Platform\relax }}{13}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Azure DevOps\relax }}{12}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Amazon Web Services\relax }}{13}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Google Cloud Platform\relax }}{14}{figure.caption.15}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme de cas d'utilisation Globale\relax }}{19}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Cas d'utilisation:Gérer code source \relax }}{20}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Cas d'utilisation:Suivie la build d'application \relax }}{21}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Cas d'utilisation:Gérer la configuration de déploiement\relax }}{22}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Cas d'utilisation:Gérer liste des images Docker\relax }}{23}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Cas d'utilisation:Gérer les artefacts d'application\relax }}{24}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagramme de classe global\relax }}{25}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagramme de séquence global\relax }}{26}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagramme de déploiement global\relax }}{27}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme de cas d'utilisation Globale\relax }}{20}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Cas d'utilisation:Gérer code source \relax }}{21}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Cas d'utilisation:Suivie la build d'application \relax }}{22}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Cas d'utilisation:Gérer la configuration de déploiement\relax }}{23}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Cas d'utilisation:Gérer liste des images Docker\relax }}{24}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Cas d'utilisation:Gérer les artefacts d'application\relax }}{25}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagramme de classe global\relax }}{26}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagramme de séquence global\relax }}{27}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagramme de déploiement global\relax }}{28}{figure.caption.30}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Architecture Cloud\relax }}{31}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces cas d’utilisation"Configuration de l'architecture cloud AWS"\relax }}{32}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Architecture Cloud\relax }}{33}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces la configuration de pipeline\relax }}{34}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Architecture Cloud\relax }}{32}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces cas d’utilisation"Configuration de l'architecture cloud AWS"\relax }}{33}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Architecture Cloud\relax }}{34}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces la configuration de pipeline\relax }}{35}{figure.caption.36}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces cas d’utilisation"Configuration de la Pipline"\relax }}{36}{figure.caption.37}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces diagramme de séqunce"Configuration de la Pipline"\relax }}{37}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces cas d’utilisation"Configuration de la Pipline"\relax }}{37}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces diagramme de séqunce"Configuration de la Pipline"\relax }}{38}{figure.caption.39}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces cas d’utilisation"Déploiement de l'application sur le cluster."\relax }}{39}{figure.caption.40}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces cas d’utilisation"Déploiement de l'application sur le cluster."\relax }}{40}{figure.caption.40}%
