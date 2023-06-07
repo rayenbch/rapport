@@ -2,10 +2,11 @@
 
 %====================== PACKAGES ======================
 \usepackage{graphicx}
-\usepackage[english,french]{babel}
+\usepackage[french]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage{multirow}
-
+\usepackage[footnote]{acronym}
+\usepackage{amssymb}
 %pour gérer les positionnement d'images
 \usepackage{float}
 \usepackage{amsmath}
@@ -18,6 +19,11 @@
 \usepackage{array}
 \usepackage{tabularx}
 \usepackage{dingbat}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{tocloft}
 %pour utiliser \floatbarrier
 %\usepackage{placeins}
 %\usepackage{floatrow}
@@ -80,25 +86,35 @@ pdfstartview={FitH}}					% ajuste la page à la largueur de l'écran
 \setlength{\headheight}{18.5pt}
 
 %régler l'espacement entre les lignes
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
-
+% \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+% \renewcommand{\cftsecfont}{\normalfont} % Section font style
+% \renewcommand{\cftsubsecfont}{\bfseries\small} % Subsection font style
+% \renewcommand{\cftsubsubsecfont}{\bfseries\small} % Subsubsection font style
+% \renewcommand{\cftsubsubsubsecfont}{\bfseries\small} % Subsubsection font style
 %page de garde
 \input{./title.tex}
 
 %page blanche
 \newpage
-~
+
 %ne pas numéroter cette page
 \thispagestyle{empty}
 \newpage
 
 \input{./abstract.tex}
-
-
 \tableofcontents
-\thispagestyle{empty}
+
 \listoffigures
 \thispagestyle{empty}
+\clearpage
+\listoftables
+
+
+\clearpage
+\input{Acronymes.tex}
+\thispagestyle{empty}
+\input{Introduction.tex}
+
 
 \setcounter{page}{0}
 %ne pas numéroter le sommaire
@@ -109,7 +125,8 @@ pdfstartview={FitH}}					% ajuste la page à la largueur de l'écran
 \renewcommand{\arraystretch}{1.5}
 
 %====================== INCLUSION DES PARTIES ======================
-
+%\counterwithout{figure}{chapter} % Remove chapter dependency for figure numbering
+%\counterwithout{table}{chapter} % Remove chapter dependency for table numbering
 \thispagestyle{empty}
 %recommencer la numérotation des pages à "1"
 \setcounter{page}{0}

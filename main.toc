@@ -1,6 +1,7 @@
 \babel@toc {french}{}\relax 
 \babel@toc {french}{}\relax 
 \babel@toc {french}{}\relax 
+\contentsline {chapter}{Introduction générale}{6}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Cadre général du projet}{0}{chapter.1}%
 \contentsline {section}{\numberline {1.1}\LARGE Société d’accueil }{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}\Large Identité }{1}{subsection.1.1.1}%
