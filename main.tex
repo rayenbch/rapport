@@ -1,4 +1,5 @@
 \documentclass[a4paper]{report}
+\usepackage{pdflscape}
 
 %====================== PACKAGES ======================
 \usepackage{graphicx}
@@ -92,7 +93,7 @@ pdfstartview={FitH}}					% ajuste la page à la largueur de l'écran
 % \renewcommand{\cftsubsubsecfont}{\bfseries\small} % Subsubsection font style
 % \renewcommand{\cftsubsubsubsecfont}{\bfseries\small} % Subsubsection font style
 %page de garde
-
+\scalefont{1.2}
 
 %page blanche
 \newpage
@@ -136,12 +137,12 @@ pdfstartview={FitH}}					% ajuste la page à la largueur de l'écran
 %recommencer la numérotation des pages à "1"
 \setcounter{page}{0}
 \newpage
-\scalefont{1.1}
+
 \input{Introduction.tex}
 
 \input{./presentation.tex}
 
-\input{./existant.tex}
+%\input{./existant.tex}
  
 \input{./besoins.tex}
 

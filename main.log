@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  16 JUN 2023 19:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  17 JUN 2023 00:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,12 +23,15 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+ (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
@@ -38,7 +41,14 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 107.
  (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-))
+)))
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
 ) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
@@ -859,8 +869,6 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
  (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
@@ -1060,15 +1068,15 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cfttabnumwidth=\skip94
 ) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/abstract\abstract.sty
+) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/abstract\abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
 \abstitleskip=\skip95
 \absleftindent=\skip96
 \absrightindent=\skip97
 \absparindent=\skip98
 \absparsep=\skip99
-) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+)
+(C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -1120,24 +1128,24 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
  (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count341
@@ -1157,9 +1165,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \degres on input line 69.
-LaTeX Info: Redefining \up on input line 69.
-Package hyperref Info: Link coloring OFF on input line 69.
+LaTeX Info: Redefining \degres on input line 70.
+LaTeX Info: Redefining \up on input line 70.
+Package hyperref Info: Link coloring OFF on input line 70.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1294,6 +1302,7 @@ LaTeX Warning: Hyper reference `acro:DevOps' on page ii undefined on input line 
 ) [2
 
 ] (main.toc
+LaTeX Font Info:    Calculating math sizes for size <11.99997> on input line 4.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
  (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1324,78 +1333,71 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <37.32> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-) (presentation.tex [0
 
-]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <13.20003> not available
+(Font)              size <14.4> substituted on input line 5.
+
+) [0
+
+] (presentation.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 ...Ã©nÃ©ral du projet et Ã©tude de l'existant}
+                                                   [1]
 Chapitre 1.
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <13.20003> not available
+(Font)              size <14.4> substituted on input line 8.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-
-LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <13.31021> not available
-(Font)              size <14.4> substituted on input line 26.
-
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 34.
 
 Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-<presentation/domaine.png, id=450, 1114.1625pt x 1028.84375pt>
+<presentation/domaine.png, id=418, 1114.1625pt x 1028.84375pt>
 File: presentation/domaine.png Graphic file (type png)
 <use presentation/domaine.png>
 Package pdftex.def Info: presentation/domaine.png  used on input line 52.
 (pdftex.def)             Requested size: 341.43306pt x 315.28043pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.55 
-      [1
+[2
 
 ]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
 
 Overfull \hbox (10.6393pt too wide) in paragraph at lines 62--66
 []\T1/cmr/m/n/14.4 Avant l'ap-pa-ri-tion de l'ar-chi-tec-ture micro-service, les ap-pli-ca-tions sont construites
  []
 
-[2 <./presentation/domaine.png (PNG copy)>]
-<presentation/Microservice.png, id=462, 803.1606pt x 602.25pt>
+[3 <./presentation/domaine.png (PNG copy)>]
+<presentation/Microservice.png, id=430, 803.1606pt x 602.25pt>
 File: presentation/Microservice.png Graphic file (type png)
 <use presentation/Microservice.png>
 Package pdftex.def Info: presentation/Microservice.png  used on input line 69.
 (pdftex.def)             Requested size: 417.4008pt x 312.9803pt.
-<presentation/devops.png, id=465, 1927.2pt x 1084.05pt>
+<presentation/devops.png, id=433, 1927.2pt x 1084.05pt>
 File: presentation/devops.png Graphic file (type png)
 <use presentation/devops.png>
 Package pdftex.def Info: presentation/devops.png  used on input line 80.
 (pdftex.def)             Requested size: 404.63573pt x 227.62204pt.
- [3 <./presentation/Microservice.png>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 90.
- (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
+ [4 <./presentation/Microservice.png>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 89.
 
-LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <13.31021> not available
-(Font)              size <14.4> substituted on input line 90.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
-
-LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <13.31021> not available
-(Font)              size <14.4> substituted on input line 92.
-
-<presentation/saas-vs-paas-vs-iaas-1024x953.png, id=475, 770.88pt x 717.43031pt>
+<presentation/saas-vs-paas-vs-iaas-1024x953.png, id=443, 770.88pt x 717.43031pt>
 File: presentation/saas-vs-paas-vs-iaas-1024x953.png Graphic file (type png)
 <use presentation/saas-vs-paas-vs-iaas-1024x953.png>
 Package pdftex.def Info: presentation/saas-vs-paas-vs-iaas-1024x953.png  used on input line 114.
@@ -1405,7 +1407,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--118
 
  []
 
-[4 <./presentation/devops.png>]
+[5 <./presentation/devops.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
@@ -1415,13 +1417,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-
+[6 <./presentation/saas-vs-paas-vs-iaas-1024x953.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-[5 <./presentation/saas-vs-paas-vs-iaas-1024x953.png>]
-<presentation/cloud.png, id=497, 810.02625pt x 392.96812pt>
+<presentation/cloud.png, id=465, 810.02625pt x 392.96812pt>
 File: presentation/cloud.png Graphic file (type png)
 <use presentation/cloud.png>
 Package pdftex.def Info: presentation/cloud.png  used on input line 131.
@@ -1431,12 +1432,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--144
 
  []
 
-
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 162.
+(C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
 Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
-[6 <./presentation/cloud.png>]
+[7 <./presentation/cloud.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
@@ -1457,7 +1461,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--175
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
@@ -1476,23 +1480,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--192
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
  []
 
-[7]
-<agile-Scrum-sprint-workflow-schema-FR.png, id=508, 2550.52875pt x 1186.4325pt>
+<agile-Scrum-sprint-workflow-schema-FR.png, id=477, 2550.52875pt x 1186.4325pt>
 File: agile-Scrum-sprint-workflow-schema-FR.png Graphic file (type png)
 <use agile-Scrum-sprint-workflow-schema-FR.png>
 Package pdftex.def Info: agile-Scrum-sprint-workflow-schema-FR.png  used on input line 199.
 (pdftex.def)             Requested size: 428.13565pt x 199.16928pt.
-<presentation/Gantt.png, id=509, 1026.83624pt x 637.38126pt>
+<presentation/Gantt.png, id=478, 1026.83624pt x 637.38126pt>
 File: presentation/Gantt.png Graphic file (type png)
 <use presentation/Gantt.png>
 Package pdftex.def Info: presentation/Gantt.png  used on input line 214.
@@ -1502,401 +1505,496 @@ Overfull \hbox (27.32272pt too wide) in paragraph at lines 214--215
  [] 
  []
 
-[8 <./agile-Scrum-sprint-workflow-schema-FR.png>]) (existant.tex [9 <./presentation/Gantt.png>]
-Chapitre 2.
-[10
-
-]
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6.
- (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
-File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-
-LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <13.31021> not available
-(Font)              size <14.4> substituted on input line 6.
-
-LaTeX Font Info:    Trying to load font information for T1+qtm on input line 6.
-(C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qtm.fd
-File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
-)
-Underfull \hbox (badness 10000) in paragraph at lines 3--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
-
- []
-
-<azure.png, id=525, 1156.01888pt x 598.93762pt>
+[9 <./agile-Scrum-sprint-workflow-schema-FR.png>] [10 <./presentation/Gantt.png>]
+<azure.png, id=491, 1156.01888pt x 598.93762pt>
 File: azure.png Graphic file (type png)
 <use azure.png>
-Package pdftex.def Info: azure.png  used on input line 25.
-(pdftex.def)             Requested size: 341.43306pt x 176.89526pt.
-[11{C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+Package pdftex.def Info: azure.png  used on input line 242.
+(pdftex.def)             Requested size: 494.27377pt x 256.0748pt.
+
+Overfull \hbox (17.37689pt too wide) in paragraph at lines 242--243
+ [] 
+ []
+
+
+Overfull \hbox (13.37698pt too wide) in paragraph at lines 236--247
+[]\T1/cmr/m/n/14.4 -- Azure De-vOps fonc-tionné par-ti-cu-liè-re-ment sur cloud qui né-ces-site une connexion
+ []
+
+[11 <./azure.png>]
+<AWS.png, id=500, 1597.97pt x 1010.77625pt>
+File: AWS.png Graphic file (type png)
+<use AWS.png>
+Package pdftex.def Info: AWS.png  used on input line 267.
+(pdftex.def)             Requested size: 426.79134pt x 269.95198pt.
+ [12 <./AWS.png>]
+<presentation/GPC.png, id=507, 2208.25pt x 1196.47pt>
+File: presentation/GPC.png Graphic file (type png)
+<use presentation/GPC.png>
+Package pdftex.def Info: presentation/GPC.png  used on input line 294.
+(pdftex.def)             Requested size: 426.79134pt x 231.23859pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--299
 
  []
 
 
-Overfull \hbox (7.3545pt too wide) in paragraph at lines 35--37
-\T1/cmr/bx/n/14.4 -Avantage : \T1/qtm/m/n/17.30331 Aws offre une grande évo-lu-ti-vité pour les en-tre-prises peuvent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
-<aws.png, id=535, 2007.5pt x 1505.625pt>
-File: aws.png Graphic file (type png)
-<use aws.png>
-Package pdftex.def Info: aws.png  used on input line 42.
-(pdftex.def)             Requested size: 341.43306pt x 256.06773pt.
-[12 <./azure.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 303.
+(C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
+File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 303--307
 
  []
 
-<gcp.png, id=543, 1195.2655pt x 567.3195pt>
-File: gcp.png Graphic file (type png)
-<use gcp.png>
-Package pdftex.def Info: gcp.png  used on input line 59.
-(pdftex.def)             Requested size: 341.43306pt x 162.05132pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--64
-
- []
-
-[13 <./aws.png>]
-LaTeX Font Info:    Calculating math sizes for size <13.31021> on input line 69.
+[13 <./presentation/GPC.png>]
+LaTeX Font Info:    Calculating math sizes for size <13.00003> on input line 330.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13.31021> not available
-(Font)              size <14.4> substituted on input line 69.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13.00003> not available
+(Font)              size <12> substituted on input line 330.
 
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.31021> not available
-(Font)              size <14.4> substituted on input line 69.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.50002> not available
+(Font)              size <7> substituted on input line 330.
 
 
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.31021> not available
-(Font)              size <14.4> substituted on input line 69.
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.00003> not available
+(Font)              size <12> substituted on input line 330.
 
 
-Overfull \hbox (46.36531pt too wide) in paragraph at lines 66--84
-[] 
- []
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.50002> not available
+(Font)              size <7> substituted on input line 330.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--84
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.00003> not available
+(Font)              size <12> substituted on input line 330.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.50002> not available
+(Font)              size <7> substituted on input line 330.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
-[14 <./gcp.png>]) (besoins.tex [15]
-Chapitre 3.
-[16
+) (besoins.tex [15]
+Chapitre 2.
 
-]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
 
-Overfull \hbox (4.49124pt too wide) in paragraph at lines 9--10
-\T1/qtm/m/n/17.30331 tion-nels et non fonc-tion-nels. En-suite, nous al-lons voir les ac-teurs concer-
+Underfull \hbox (badness 10000) in paragraph at lines 9--14
+
  []
 
+[16
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--17
+]
+Underfull \hbox (badness 10000) in paragraph at lines 32--41
 
  []
 
 [17]
-Overfull \hbox (43.38762pt too wide) in paragraph at lines 34--44
-\T1/qtm/m/n/17.30331 qua-lité de la so-lu-tion ob-te-nue. Nous dé-ter-mi-ne-rons l'en-semble des contraintes
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
  []
 
 
-Overfull \hbox (0.10777pt too wide) in paragraph at lines 34--44
-\T1/qtm/m/n/17.30331 --Extensibilité : Le sys-tème doit main-te-nir ses hautes per-for-mances sous
- []
-
-[18]
-Underfull \hbox (badness 3281) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/10 il per-met d'ana-ly-ser le code
+Underfull \hbox (badness 1033) in paragraph at lines 74--74
+[]|\T1/cmr/m/n/10 Consiste à sto-cker et à gé-rer
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/10 consiste à sto-cker et à gé-rer
- []
-
-
-Underfull \hbox (badness 5939) in paragraph at lines 76--76
+Underfull \hbox (badness 5939) in paragraph at lines 74--74
 \T1/cmr/m/n/10 ap-pli-ca-tion, les bi-blio-thèques,
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 76--76
+Underfull \hbox (badness 1127) in paragraph at lines 74--74
 \T1/cmr/m/n/10 dans le clus-ter pour s'as-su-rer
  []
 
 
-Overfull \hbox (48.41156pt too wide) in paragraph at lines 50--77
+Overfull \hbox (48.41156pt too wide) in paragraph at lines 48--75
  [] 
  []
 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-<Use case.drawio.png, id=578, 728.7225pt x 1135.24126pt>
+<Use case.drawio.png, id=538, 596.2275pt x 974.64125pt>
 File: Use case.drawio.png Graphic file (type png)
 <use Use case.drawio.png>
-Package pdftex.def Info: Use case.drawio.png  used on input line 93.
-(pdftex.def)             Requested size: 341.43306pt x 531.90051pt.
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 100--103
+Package pdftex.def Info: Use case.drawio.png  used on input line 91.
+(pdftex.def)             Requested size: 341.43306pt x 558.13898pt.
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-[21 <./Use case.drawio.png>]
-<usecase1.drawio.png, id=588, 884.30376pt x 482.80376pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+[20 <./Use case.drawio.png>]
+<usecase1.drawio.png, id=548, 752.8125pt x 362.35374pt>
 File: usecase1.drawio.png Graphic file (type png)
 <use usecase1.drawio.png>
-Package pdftex.def Info: usecase1.drawio.png  used on input line 110.
-(pdftex.def)             Requested size: 426.79134pt x 233.01765pt.
+Package pdftex.def Info: usecase1.drawio.png  used on input line 106.
+(pdftex.def)             Requested size: 426.79134pt x 205.43243pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
 
-Overfull \hbox (48.40009pt too wide) in paragraph at lines 122--145
+Overfull \hbox (48.40009pt too wide) in paragraph at lines 118--141
  [][] 
  []
 
-[22 <./usecase1.drawio.png>]
-<UseCase2.drawio.png, id=594, 793.96625pt x 512.91624pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+[21 <./usecase1.drawio.png>]
+<UseCase2.drawio.png, id=554, 682.55pt x 362.35374pt>
 File: UseCase2.drawio.png Graphic file (type png)
 <use UseCase2.drawio.png>
-Package pdftex.def Info: UseCase2.drawio.png  used on input line 157.
-(pdftex.def)             Requested size: 426.79134pt x 275.71841pt.
+Package pdftex.def Info: UseCase2.drawio.png  used on input line 153.
+(pdftex.def)             Requested size: 426.79134pt x 226.58112pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-[23 <./UseCase2.drawio.png>]
-Overfull \hbox (48.40009pt too wide) in paragraph at lines 168--190
+
+Overfull \hbox (48.40009pt too wide) in paragraph at lines 164--186
  [][] 
  []
 
-<UserCase3.drawio.png, id=601, 723.70375pt x 442.65375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+[22 <./UseCase2.drawio.png>]
+<UserCase3.drawio.png, id=560, 656.4525pt x 362.35374pt>
 File: UserCase3.drawio.png Graphic file (type png)
 <use UserCase3.drawio.png>
-Package pdftex.def Info: UserCase3.drawio.png  used on input line 199.
-(pdftex.def)             Requested size: 426.79134pt x 261.04861pt.
+Package pdftex.def Info: UserCase3.drawio.png  used on input line 195.
+(pdftex.def)             Requested size: 426.79134pt x 235.58795pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--204
-
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
 
-Overfull \hbox (48.40009pt too wide) in paragraph at lines 210--232
+Overfull \hbox (48.40009pt too wide) in paragraph at lines 206--228
  [][] 
  []
 
-<usecase5.drawio.png, id=606, 864.22874pt x 422.57875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+[23 <./UserCase3.drawio.png>]
+<usecase5.drawio.png, id=567, 796.9775pt x 322.20375pt>
 File: usecase5.drawio.png Graphic file (type png)
 <use usecase5.drawio.png>
-Package pdftex.def Info: usecase5.drawio.png  used on input line 242.
-(pdftex.def)             Requested size: 426.79134pt x 208.68385pt.
+Package pdftex.def Info: usecase5.drawio.png  used on input line 238.
+(pdftex.def)             Requested size: 426.79134pt x 172.54199pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--247
-
- []
-
-[25 <./UserCase3.drawio.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
 
-Overfull \hbox (48.40009pt too wide) in paragraph at lines 253--276
+Overfull \hbox (48.40009pt too wide) in paragraph at lines 249--273
  [][] 
  []
 
-<Usecase6.drawio.png, id=612, 924.45375pt x 432.61626pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+[24 <./usecase5.drawio.png>]
+<Usecase6.drawio.png, id=573, 844.15375pt x 352.31625pt>
 File: Usecase6.drawio.png Graphic file (type png)
 <use Usecase6.drawio.png>
-Package pdftex.def Info: Usecase6.drawio.png  used on input line 287.
-(pdftex.def)             Requested size: 426.79134pt x 199.72542pt.
+Package pdftex.def Info: Usecase6.drawio.png  used on input line 284.
+(pdftex.def)             Requested size: 426.79134pt x 178.13065pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--292
-
- []
-
-[26 <./usecase5.drawio.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
 
-Overfull \hbox (48.40009pt too wide) in paragraph at lines 298--319
+Overfull \hbox (48.40009pt too wide) in paragraph at lines 295--317
  [][] 
  []
 
-<ClassDiagram.drawio.png, id=619, 1516.66624pt x 1302.8675pt>
-File: ClassDiagram.drawio.png Graphic file (type png)
-<use ClassDiagram.drawio.png>
-Package pdftex.def Info: ClassDiagram.drawio.png  used on input line 328.
-(pdftex.def)             Requested size: 512.1496pt x 439.94731pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 328--329
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
+
  []
 
-[27 <./Usecase6.drawio.png>]
-<Squence.drawio.png, id=627, 1613.02625pt x 1185.42876pt>
+[25 <./Usecase6.drawio.png>]) (autre_partie.tex [26]
+Chapitre 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+[27
+
+]
+<Squence.drawio.png, id=589, 1613.02625pt x 1185.42876pt>
 File: Squence.drawio.png Graphic file (type png)
 <use Squence.drawio.png>
-Package pdftex.def Info: Squence.drawio.png  used on input line 339.
-(pdftex.def)             Requested size: 540.59482pt x 711.3351pt.
-
-Overfull \hbox (56.89795pt too wide) in paragraph at lines 339--340
- [] 
- []
-
-[28 <./ClassDiagram.drawio.png>]
-Overfull \vbox (13.09926pt too high) has occurred while \output is active []
-
- [29 <./Squence.drawio.png>]
-<deploiment-1.drawio.png, id=641, 1150.2975pt x 603.25375pt>
-File: deploiment-1.drawio.png Graphic file (type png)
-<use deploiment-1.drawio.png>
-Package pdftex.def Info: deploiment-1.drawio.png  used on input line 350.
-(pdftex.def)             Requested size: 512.15285pt x 512.15138pt.
-
-Overfull \hbox (35.25597pt too wide) in paragraph at lines 350--351
- [] 
- []
-
-[30 <./deploiment-1.drawio.png>]
-Overfull \hbox (48.4292pt too wide) in paragraph at lines 366--390
- [][] 
- []
-
-) (autre_partie.tex [31]
-Chapitre 4.
-[32
-
-]
-<aws global architecture.drawio.png, id=656, 2010.51125pt x 1006.76125pt>
-File: aws global architecture.drawio.png Graphic file (type png)
-<use aws global architecture.drawio.png>
-Package pdftex.def Info: aws global architecture.drawio.png  used on input line 18.
-(pdftex.def)             Requested size: 540.57513pt x 455.23512pt.
-
-Overfull \hbox (56.87827pt too wide) in paragraph at lines 18--19
- [] 
- []
-
-[33]
-<usecasedet.drawio.png, id=661, 785.93625pt x 424.58624pt>
-File: usecasedet.drawio.png Graphic file (type png)
-<use usecasedet.drawio.png>
-Package pdftex.def Info: usecasedet.drawio.png  used on input line 34.
-(pdftex.def)             Requested size: 526.70647pt x 284.52756pt.
-
-Overfull \hbox (43.0096pt too wide) in paragraph at lines 34--35
- [] 
- []
-
-[34 <./aws global architecture.drawio.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-
- []
+Package pdftex.def Info: Squence.drawio.png  used on input line 24.
+(pdftex.def)             Requested size: 682.86613pt x 501.83798pt.
 
 
-Overfull \hbox (48.40009pt too wide) in paragraph at lines 45--64
- [][] 
- []
+LaTeX Warning: Float too large for page by 40.14111pt on input line 27.
 
-<seqd.drawio.png, id=666, 954.56625pt x 673.51625pt>
+[28 <./Squence.drawio.png>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13.50006> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dimen@' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dimen@ii' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\afterassignment' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\skip@' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@tempdima' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dimen@' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dimen@ii' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dimen@' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\p@' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dimen@' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dimen@' on input line 31.
+
+<seqd.drawio.png, id=595, 954.56625pt x 673.51625pt>
 File: seqd.drawio.png Graphic file (type png)
 <use seqd.drawio.png>
-Package pdftex.def Info: seqd.drawio.png  used on input line 71.
+Package pdftex.def Info: seqd.drawio.png  used on input line 35.
 (pdftex.def)             Requested size: 512.13718pt x 426.79424pt.
 
-Overfull \hbox (28.4403pt too wide) in paragraph at lines 71--72
+Overfull \hbox (28.4403pt too wide) in paragraph at lines 35--36
  [] 
  []
 
-[35 <./usecasedet.drawio.png>] [36 <./seqd.drawio.png>]
-<CI_CD EKS.drawio.png, id=678, 1539.7525pt x 837.1275pt>
-File: CI_CD EKS.drawio.png Graphic file (type png)
-<use CI_CD EKS.drawio.png>
-Package pdftex.def Info: CI_CD EKS.drawio.png  used on input line 93.
-(pdftex.def)             Requested size: 526.37527pt x 483.6949pt.
+<SEQCLUSTER.png, id=596, 522.5121pt x 493.6041pt>
+File: SEQCLUSTER.png Graphic file (type png)
+<use SEQCLUSTER.png>
+Package pdftex.def Info: SEQCLUSTER.png  used on input line 45.
+(pdftex.def)             Requested size: 512.15404pt x 426.79596pt.
 
-Overfull \hbox (42.6784pt too wide) in paragraph at lines 93--94
+Overfull \hbox (28.45717pt too wide) in paragraph at lines 45--46
  [] 
  []
 
-) (sprint2.tex [37 <./CI_CD EKS.drawio.png>]
-Chapitre 5.
-[38
+[29
+
+
+ <./seqd.drawio.png>]
+<SEQPIPELINE.png, id=603, 587.5551pt x 515.2851pt>
+File: SEQPIPELINE.png Graphic file (type png)
+<use SEQPIPELINE.png>
+Package pdftex.def Info: SEQPIPELINE.png  used on input line 54.
+(pdftex.def)             Requested size: 512.19086pt x 426.79019pt.
+
+Overfull \hbox (28.49399pt too wide) in paragraph at lines 54--55
+ [] 
+ []
+
+[30 <./SEQCLUSTER.png>]
+<ClassDiagram.drawio.png, id=610, 1516.66624pt x 1302.8675pt>
+File: ClassDiagram.drawio.png Graphic file (type png)
+<use ClassDiagram.drawio.png>
+Package pdftex.def Info: ClassDiagram.drawio.png  used on input line 67.
+(pdftex.def)             Requested size: 512.14206pt x 512.15195pt.
+
+Overfull \hbox (28.44519pt too wide) in paragraph at lines 67--68
+ [] 
+ []
+
+[31 <./SEQPIPELINE.png>]
+<deploiment-1.drawio.png, id=618, 1150.2975pt x 603.25375pt>
+File: deploiment-1.drawio.png Graphic file (type png)
+<use deploiment-1.drawio.png>
+Package pdftex.def Info: deploiment-1.drawio.png  used on input line 78.
+(pdftex.def)             Requested size: 512.15285pt x 512.15138pt.
+
+Overfull \hbox (35.25597pt too wide) in paragraph at lines 78--79
+ [] 
+ []
+
+[32 <./ClassDiagram.drawio.png>]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <18.87616> not available
+(Font)              size <17.28> substituted on input line 88.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <18.87616> not available
+(Font)              size <17.28> substituted on input line 88.
+
+
+LaTeX Warning: Citation `20' on page 33 undefined on input line 88.
+
+<CI-CD-fonctionnement.png, id=625, 803.0pt x 368.37625pt>
+File: CI-CD-fonctionnement.png Graphic file (type png)
+<use CI-CD-fonctionnement.png>
+Package pdftex.def Info: CI-CD-fonctionnement.png  used on input line 92.
+(pdftex.def)             Requested size: 426.801pt x 312.97513pt.
+
+Overfull \hbox (16.43912pt too wide) in paragraph at lines 88--97
+\T1/ptm/m/n/18.87616 ploie-ment sont au-to-ma-ti-sées.Ainsi , les pi-pe-lines CI/CD per-mettent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--97
+
+ []
+
+[33 <./deploiment-1.drawio.png>] [34 <./CI-CD-fonctionnement.png>] [35]
+<GLOBALAWS.png, id=641, 986.7264pt x 447.53198pt>
+File: GLOBALAWS.png Graphic file (type png)
+<use GLOBALAWS.png>
+Package pdftex.def Info: GLOBALAWS.png  used on input line 103.
+(pdftex.def)             Requested size: 711.3308pt x 483.7234pt.
+
+
+LaTeX Warning: Float too large for page by 22.02654pt on input line 105.
+
+[36 <./GLOBALAWS.png>]
+<LOCAL.drawio.png, id=647, 233.07076pt x 141.46852pt>
+File: LOCAL.drawio.png Graphic file (type png)
+<use LOCAL.drawio.png>
+Package pdftex.def Info: LOCAL.drawio.png  used on input line 114.
+(pdftex.def)             Requested size: 426.80334pt x 355.73624pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--117
+\T1/ptm/m/n/18.87616 ment dans le pro-jet. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--117
+
+ []
+
+
+Overfull \hbox (2.01468pt too wide) in paragraph at lines 118--145
+[] [] \T1/ptm/m/n/18.87616 Le clus-ter lo-cal dans l'ar-chi-tec-ture glo-bale fonc-tionne comme
+ []
+
+[37
+
+
+ <./LOCAL.drawio.png>]
+<PARTIEEKS.drawio.png, id=653, 999.4941pt x 646.0938pt>
+File: PARTIEEKS.drawio.png Graphic file (type png)
+<use PARTIEEKS.drawio.png>
+Package pdftex.def Info: PARTIEEKS.drawio.png  used on input line 151.
+(pdftex.def)             Requested size: 512.17542pt x 398.35583pt.
+
+Overfull \hbox (28.47855pt too wide) in paragraph at lines 151--152
+[][] 
+ []
+
+[38] [39 <./PARTIEEKS.drawio.png>]
+Overfull \hbox (18.60165pt too wide) in paragraph at lines 181--182
+\T1/ptm/m/n/18.87616 de concep-tion. Aussi, nous avons dé-crit la mé-tho-do-lo-gie de concep-
+ []
+
+) (sprint2.tex [40]
+Chapitre 4.
+[41
 
 ]
-<configuration pipline use case.png, id=687, 621.82312pt x 470.35725pt>
+LaTeX Font Info:    Trying to load font information for T1+qtm on input line 5.
+ (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qtm.fd
+File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
+)
+<configuration pipline use case.png, id=672, 621.82312pt x 470.35725pt>
 File: configuration pipline use case.png Graphic file (type png)
 <use configuration pipline use case.png>
 Package pdftex.def Info: configuration pipline use case.png  used on input line 19.
 (pdftex.def)             Requested size: 376.16145pt x 284.52756pt.
+ [42{C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}]
+Overfull \hbox (9.55571pt too wide) in paragraph at lines 27--28
+\T1/qtm/m/n/18.87616 sen-tons la des-crip-tion tex-tuelle du prin-ci-pales fonc-tion-na-li-tés men-
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-[39 <./configuration pipline use case.png>]
+
 Overfull \hbox (48.40009pt too wide) in paragraph at lines 31--53
  [][] 
  []
 
-<sequencepipeline.drawio.png, id=693, 884.30376pt x 743.77875pt>
+<sequencepipeline.drawio.png, id=678, 884.30376pt x 743.77875pt>
 File: sequencepipeline.drawio.png Graphic file (type png)
 <use sequencepipeline.drawio.png>
 Package pdftex.def Info: sequencepipeline.drawio.png  used on input line 61.
@@ -1906,15 +2004,16 @@ Overfull \hbox (28.47104pt too wide) in paragraph at lines 61--62
  [] 
  []
 
-) [40] (sprint3.tex [41 <./sequencepipeline.drawio.png>]
-Chapitre 6.
-[42
+[43 <./configuration pipline use case.png>]) (sprint3.tex [44 <./sequencepipeline.drawio.png>]
+Chapitre 5.
+[45
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
+<usecasedet.drawio.png, id=693, 785.93625pt x 424.58624pt>
 File: usecasedet.drawio.png Graphic file (type png)
 <use usecasedet.drawio.png>
 Package pdftex.def Info: usecasedet.drawio.png  used on input line 21.
@@ -1924,7 +2023,12 @@ Overfull \hbox (43.0096pt too wide) in paragraph at lines 21--22
  [] 
  []
 
-[43]
+[46]
+Overfull \hbox (9.55571pt too wide) in paragraph at lines 30--31
+\T1/qtm/m/n/18.87616 sen-tons la des-crip-tion tex-tuelle du prin-ci-pales fonc-tion-na-li-tés men-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
@@ -1934,31 +2038,31 @@ Overfull \hbox (48.40009pt too wide) in paragraph at lines 34--54
  [][] 
  []
 
-) [44] (main.bbl) [45
+) [47 <./usecasedet.drawio.png>] (main.bbl) [48
 
 ] (main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.08978pt have occurred.
+(Font)              up to 1.59616pt have occurred.
 
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6560041D13F52C86D005EDE85AFD5C03;12491.
+(rerunfilecheck)             Checksum: A8D71943BFDA39AAB4EFC96B6BF1DA59;11793.
  ) 
 Here is how much of TeX's memory you used:
- 27290 strings out of 476361
- 506315 string characters out of 5788046
- 1868993 words of memory out of 5000000
- 46954 multiletter control sequences out of 15000+600000
- 557974 words of font info for 90 fonts, out of 8000000 for 9000
+ 27455 strings out of 476361
+ 510532 string characters out of 5788046
+ 1867993 words of memory out of 5000000
+ 47101 multiletter control sequences out of 15000+600000
+ 573558 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,117p,1263b,770s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk><C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (53 pages, 3235821 bytes).
+ 99i,13n,117p,1207b,770s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk><C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (56 pages, 6530249 bytes).
 PDF statistics:
- 1420 PDF objects out of 1440 (max. 8388607)
- 180 named destinations out of 1000 (max. 500000)
- 642 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1394 PDF objects out of 1440 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
+ 598 words of extra memory for PDF output out of 10000 (max. 10000000)
 
