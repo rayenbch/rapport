@@ -1,32 +1,29 @@
 \babel@toc {french}{}\relax 
 \babel@toc {french}{}\relax 
 \babel@toc {french}{}\relax 
-\contentsline {chapter}{Introduction générale}{6}{chapter*.2}%
-\contentsline {chapter}{\numberline {1}Cadre général du projet}{0}{chapter.1}%
-\contentsline {section}{\numberline {1.1}\LARGE Société d’accueil }{1}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}\Large Identité }{1}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}\Large Activités de mobelite}{2}{subsection.1.1.2}%
-\contentsline {section}{\numberline {1.2}\LARGE Problématique }{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}\LARGE Notion de base}{3}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}\LARGE Microservice}{3}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}\Large Devops}{4}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}\Large Cloud}{4}{subsection.1.3.3}%
-\contentsline {subsubsection}{\numberline {1.3.3.1}\Large Modèles de services }{4}{subsubsection.1.3.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.3.2}\Large Les modèles de déploiement }{6}{subsubsection.1.3.3.2}%
-\contentsline {section}{\numberline {1.4}\Large méthodologie de développement }{6}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}\Large Méthode classique}{7}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}\Large Méthode du processus unifié }{7}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}\Large Méthode agile }{8}{subsection.1.4.3}%
-\contentsline {subsubsection}{\numberline {1.4.3.1}\Large Présentation de la méthodologie Scrum}{8}{subsubsection.1.4.3.1}%
-\contentsline {subsubsection}{\numberline {1.4.3.2}\Large Acteurs de la méthode agile Scrum}{8}{subsubsection.1.4.3.2}%
-\contentsline {subsubsection}{\numberline {1.4.3.3}\Large Évènements de la méthode agile Scrum }{8}{subsubsection.1.4.3.3}%
-\contentsline {subsubsection}{\numberline {1.4.3.4} \Large Les artefacts}{9}{subsubsection.1.4.3.4}%
-\contentsline {subsection}{\numberline {1.4.4}\Large Méthode choisir }{9}{subsection.1.4.4}%
-\contentsline {section}{\numberline {1.5}\LARGE Conclusion}{10}{section.1.5}%
-\contentsline {chapter}{\numberline {2} Etude de l'existant}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}\LARGE Les solutions existantes}{12}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}\LARGE Azure Devops}{12}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}\LARGE Amazon Web Service DevOps}{13}{subsection.2.1.2}%
+\contentsline {chapter}{Introduction générale}{0}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}\Large Cadre général du projet et étude de l'existant}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}\fontfamily {ptm}\selectfont \Large Cadre général du projet}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}\fontfamily {ptm}\selectfont \Large Société d’accueil }{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}\fontfamily {ptm}\selectfont \Large Problématique }{2}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}\fontfamily {ptm}\selectfont \Large Notion de base}{2}{subsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.3.1}\fontfamily {ptm}\selectfont \Large Microservice}{3}{subsubsection.1.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.1.3.2}\fontfamily {ptm}\selectfont \Large DevOps}{3}{subsubsection.1.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.1.3.3}\fontfamily {ptm}\selectfont \Large Cloud}{4}{subsubsection.1.1.3.3}%
+\contentsline {paragraph}{\numberline {1.1.3.3.1}\fontfamily {ptm}\selectfont \Large Modèles de services }{4}{paragraph.1.1.3.3.1}%
+\contentsline {paragraph}{\numberline {1.1.3.3.2}\fontfamily {ptm}\selectfont \Large Les modèles de déploiement }{5}{paragraph.1.1.3.3.2}%
+\contentsline {subsection}{\numberline {1.1.4}\fontfamily {ptm}\selectfont \Large Méthodologie de développement }{6}{subsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.4.1}\fontfamily {ptm}\selectfont \Large Méthode agile }{6}{subsubsection.1.1.4.1}%
+\contentsline {paragraph}{\numberline {1.1.4.1.1}\fontfamily {ptm}\selectfont \Large Présentation de la méthodologie Scrum}{6}{paragraph.1.1.4.1.1}%
+\contentsline {paragraph}{\numberline {1.1.4.1.2}\fontfamily {ptm}\selectfont \Large Acteurs de la méthode agile Scrum}{7}{paragraph.1.1.4.1.2}%
+\contentsline {paragraph}{\numberline {1.1.4.1.3}\fontfamily {ptm}\selectfont \Large Évènements de la méthode agile Scrum }{7}{paragraph.1.1.4.1.3}%
+\contentsline {paragraph}{\numberline {1.1.4.1.4} \fontfamily {ptm}\selectfont \Large Les artefacts}{7}{paragraph.1.1.4.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}\fontfamily {ptm}\selectfont \Large Planification des sprints}{8}{subsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.1.6}\fontfamily {ptm}\selectfont \Large Conclusion}{9}{subsection.1.1.6}%
+\contentsline {chapter}{\numberline {2} Etude de l'existant}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}\LARGE Les solutions existantes}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}\LARGE Azure Devops}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}\LARGE Amazon Web Service DevOps}{12}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}\LARGE Google Cloud Platform DevOps }{13}{subsection.2.1.3}%
 \contentsline {section}{\numberline {2.2}\LARGE Critique des solutions existantes}{14}{section.2.2}%
 \contentsline {section}{\numberline {2.3}\LARGE Solution proposée}{15}{section.2.3}%
@@ -34,36 +31,36 @@
 \contentsline {chapter}{\numberline {3} Planification de projet}{16}{chapter.3}%
 \contentsline {section}{\numberline {3.1}\LARGE Acteur}{17}{section.3.1}%
 \contentsline {section}{\numberline {3.2}\LARGE Besoins fonctionnels}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}\LARGE Besoins non-fonctionnels}{17}{section.3.3}%
-\contentsline {section}{\numberline {3.4}\LARGE Product Backlog}{18}{section.3.4}%
-\contentsline {section}{\numberline {3.5}\LARGE Conception de système}{19}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}\Large Diagramme de cas d'utilisation Global}{19}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}\LARGE Raffinement des cas d’utilisation}{20}{subsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.2.1}\Large Cas d’utilisation "Gérer code source"}{21}{subsubsection.3.5.2.1}%
-\contentsline {subsubsection}{\numberline {3.5.2.2}\Large Cas d’utilisation "Suivi de la build d'application"}{22}{subsubsection.3.5.2.2}%
-\contentsline {subsubsection}{\numberline {3.5.2.3}\Large Cas d'utilisation"Gérer la configuration de déploiement"}{23}{subsubsection.3.5.2.3}%
-\contentsline {subsubsection}{\numberline {3.5.2.4}\Large Cas utilisation"Gérer liste des images Docker"}{24}{subsubsection.3.5.2.4}%
-\contentsline {subsubsection}{\numberline {3.5.2.5}\Large Cas utilisation"Gérer les artefacts d'application"}{24}{subsubsection.3.5.2.5}%
-\contentsline {subsection}{\numberline {3.5.3}\Large Diagramme de classe}{25}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}\Large Diagramme de séquence}{26}{subsection.3.5.4}%
-\contentsline {subsection}{\numberline {3.5.5}\Large Diagramme de déploiement}{28}{subsection.3.5.5}%
-\contentsline {section}{\numberline {3.6}\LARGE Application de la méthodologie de développement}{28}{section.3.6}%
-\contentsline {section}{\numberline {3.7}\LARGE Planification des sprints}{29}{section.3.7}%
-\contentsline {section}{\numberline {3.8}\LARGE Conclusion}{29}{section.3.8}%
-\contentsline {chapter}{\numberline {4}Sprint1: Configuration de l'architecture cloud AWS.}{30}{chapter.4}%
-\contentsline {section}{\numberline {4.1}\LARGE Objectif du Sprint}{31}{section.4.1}%
-\contentsline {section}{\numberline {4.2}\LARGE Architecture Global}{31}{section.4.2}%
-\contentsline {section}{\numberline {4.3}\LARGE Architecture Détaillée}{32}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}\Large Diagramme Cas d'utilisation Détaillée}{32}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}\Large Diagramme de séquence Détaillée}{33}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Realisation}{34}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Conclusion}{34}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Sprint2:Configuration de la Pipline.}{36}{chapter.5}%
-\contentsline {section}{\numberline {5.1}\LARGE Objectif du Sprint}{37}{section.5.1}%
-\contentsline {section}{\numberline {5.2}\LARGE Architecture Détaillée}{37}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}\Large Diagramme Cas d'utilisation Détaillée}{37}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}\Large Diagramme de sequance Détaillée}{38}{subsection.5.2.2}%
-\contentsline {chapter}{\numberline {6}Sprint3: Déploiement de l'application sur le cluster.}{39}{chapter.6}%
-\contentsline {section}{\numberline {6.1}\LARGE Objectif du Sprint}{40}{section.6.1}%
-\contentsline {section}{\numberline {6.2}\LARGE Architecture Détaillée}{40}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}\Large Diagramme Cas d'utilisation Détaillée}{40}{subsection.6.2.1}%
+\contentsline {section}{\numberline {3.3}\LARGE Besoins non-fonctionnels}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.4}\LARGE Product Backlog}{19}{section.3.4}%
+\contentsline {section}{\numberline {3.5}\LARGE Conception de système}{20}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}\Large Diagramme de cas d'utilisation Global}{21}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}\LARGE Raffinement des cas d’utilisation}{22}{subsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}\Large Cas d’utilisation "Gérer code source"}{22}{subsubsection.3.5.2.1}%
+\contentsline {subsubsection}{\numberline {3.5.2.2}\Large Cas d’utilisation "Suivi de la build d'application"}{23}{subsubsection.3.5.2.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.3}\Large Cas d'utilisation"Gérer la configuration de déploiement"}{24}{subsubsection.3.5.2.3}%
+\contentsline {subsubsection}{\numberline {3.5.2.4}\Large Cas utilisation"Gérer liste des images Docker"}{25}{subsubsection.3.5.2.4}%
+\contentsline {subsubsection}{\numberline {3.5.2.5}\Large Cas utilisation"Gérer les artefacts d'application"}{26}{subsubsection.3.5.2.5}%
+\contentsline {subsection}{\numberline {3.5.3}\Large Diagramme de classe}{27}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}\Large Diagramme de séquence}{28}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}\Large Diagramme de déploiement}{30}{subsection.3.5.5}%
+\contentsline {section}{\numberline {3.6}\LARGE Application de la méthodologie de développement}{31}{section.3.6}%
+\contentsline {section}{\numberline {3.7}\LARGE Planification des sprints}{31}{section.3.7}%
+\contentsline {section}{\numberline {3.8}\LARGE Conclusion}{31}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Sprint1: Configuration de l'architecture cloud AWS.}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}\LARGE Objectif du Sprint}{33}{section.4.1}%
+\contentsline {section}{\numberline {4.2}\LARGE Architecture Global}{33}{section.4.2}%
+\contentsline {section}{\numberline {4.3}\LARGE Architecture Détaillée}{34}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}\Large Diagramme Cas d'utilisation Détaillée}{34}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}\Large Diagramme de séquence Détaillée}{35}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Realisation}{36}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Conclusion}{36}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Sprint2:Configuration de la Pipline.}{38}{chapter.5}%
+\contentsline {section}{\numberline {5.1}\LARGE Objectif du Sprint}{39}{section.5.1}%
+\contentsline {section}{\numberline {5.2}\LARGE Architecture Détaillée}{39}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}\Large Diagramme Cas d'utilisation Détaillée}{39}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}\Large Diagramme de sequance Détaillée}{40}{subsection.5.2.2}%
+\contentsline {chapter}{\numberline {6}Sprint3: Déploiement de l'application sur le cluster.}{42}{chapter.6}%
+\contentsline {section}{\numberline {6.1}\LARGE Objectif du Sprint}{43}{section.6.1}%
+\contentsline {section}{\numberline {6.2}\LARGE Architecture Détaillée}{43}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}\Large Diagramme Cas d'utilisation Détaillée}{43}{subsection.6.2.1}%

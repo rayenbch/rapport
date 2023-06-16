@@ -7,10 +7,10 @@
 \usepackage{multirow}
 \usepackage[footnote]{acronym}
 \usepackage{amssymb}
-%pour gérer les positionnement d'images
+
 \usepackage{float}
 \usepackage{amsmath}
-\usepackage{graphicx}
+
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{url}
 %pour les informations sur un document compilé en PDF et les liens externes / internes
@@ -92,7 +92,7 @@ pdfstartview={FitH}}					% ajuste la page à la largueur de l'écran
 % \renewcommand{\cftsubsubsecfont}{\bfseries\small} % Subsubsection font style
 % \renewcommand{\cftsubsubsubsecfont}{\bfseries\small} % Subsubsection font style
 %page de garde
-\input{./title.tex}
+
 
 %page blanche
 \newpage
@@ -100,20 +100,25 @@ pdfstartview={FitH}}					% ajuste la page à la largueur de l'écran
 %ne pas numéroter cette page
 \thispagestyle{empty}
 \newpage
-
 \input{./abstract.tex}
+\pagenumbering{roman}
+\input{./Acronymes.tex}
+
+%page blanche
+%ne pas numéroter cette page
+
+\newpage
+
+
 \tableofcontents
 
+
+\newpage
 \listoffigures
-\thispagestyle{empty}
-\clearpage
+\newpage
 \listoftables
-
-
-\clearpage
-\input{Acronymes.tex}
-\thispagestyle{empty}
-\input{Introduction.tex}
+\newpage
+\pagenumbering{arabic}
 
 
 \setcounter{page}{0}
@@ -131,6 +136,8 @@ pdfstartview={FitH}}					% ajuste la page à la largueur de l'écran
 %recommencer la numérotation des pages à "1"
 \setcounter{page}{0}
 \newpage
+\scalefont{1.1}
+\input{Introduction.tex}
 
 \input{./presentation.tex}
 
