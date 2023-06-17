@@ -1,17 +1,19 @@
 \documentclass[a4paper]{report}
 \usepackage{pdflscape}
 
+
 %====================== PACKAGES ======================
 \usepackage{graphicx}
 \usepackage[french]{babel}
 \usepackage[utf8x]{inputenc}
-\usepackage{multirow}
 \usepackage[footnote]{acronym}
 \usepackage{amssymb}
-
+\usepackage{multirow}
+\usepackage{lscape}
+%pour gérer les positionnement d'images
 \usepackage{float}
 \usepackage{amsmath}
-
+\usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{url}
 %pour les informations sur un document compilé en PDF et les liens externes / internes
@@ -25,6 +27,8 @@
 \usepackage{multirow}
 \usepackage{caption}
 \usepackage{tocloft}
+\usepackage[export]{adjustbox}
+\usepackage{longtable}
 %pour utiliser \floatbarrier
 %\usepackage{placeins}
 %\usepackage{floatrow}
@@ -146,7 +150,7 @@ pdfstartview={FitH}}					% ajuste la page à la largueur de l'écran
  
 \input{./besoins.tex}
 
-%\input{./autre_partie.tex}
+\input{./autre_partie.tex}
 
 
 

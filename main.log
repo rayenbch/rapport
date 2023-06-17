@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  17 JUN 2023 01:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  17 JUN 2023 02:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -542,19 +542,13 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
    defining Unicode char U+FEFF (decimal 65279)
-))) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip50
-\multirow@cntb=\count269
-\multirow@dima=\skip51
-\bigstrutjot=\dimen153
-) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/acronym\acronym.sty
+))) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/acronym\acronym.sty
 Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
  (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 ) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\integerpart=\count270
-\decimalpart=\count271
+\integerpart=\count269
+\decimalpart=\count270
 )
 Package: xstring 2023/01/14 v1.85 String manipulations (CT)
 )
@@ -569,7 +563,13 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+)) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip50
+\multirow@cntb=\count271
+\multirow@dima=\skip51
+\bigstrutjot=\dimen153
+) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count272
 \float@exts=\toks22
@@ -1066,114 +1066,170 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip92
 \cfttabindent=\skip93
 \cfttabnumwidth=\skip94
+) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+)
+(C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box68
+)
+\tc@llx=\dimen303
+\tc@lly=\dimen304
+\tc@urx=\dimen305
+\tc@ury=\dimen306
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen307
+\adjbox@Height=\dimen308
+\adjbox@Depth=\dimen309
+\adjbox@Totalheight=\dimen310
+\adjbox@pwidth=\dimen311
+\adjbox@pheight=\dimen312
+\adjbox@pdepth=\dimen313
+\adjbox@ptotalheight=\dimen314
+ (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count332
+) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box69
+\sift@deathcycles=\count333
+\@vwid@loff=\dimen315
+\@vwid@roff=\dimen316
+)) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip95
+\LTright=\skip96
+\LTpre=\skip97
+\LTpost=\skip98
+\LTchunksize=\count334
+\LTcapwidth=\dimen317
+\LT@head=\box70
+\LT@firsthead=\box71
+\LT@foot=\box72
+\LT@lastfoot=\box73
+\LT@gbox=\box74
+\LT@cols=\count335
+\LT@rows=\count336
+\c@LT@tables=\count337
+\c@LT@chunks=\count338
+\LT@p@ftn=\toks45
 ) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/abstract\abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
-\abstitleskip=\skip95
-\absleftindent=\skip96
-\absrightindent=\skip97
-\absparindent=\skip98
-\absparsep=\skip99
-)
-(C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+\abstitleskip=\skip99
+\absleftindent=\skip100
+\absrightindent=\skip101
+\absparindent=\skip102
+\absparsep=\skip103
+) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count332
-\Gm@cntv=\count333
-\c@Gm@tempcnt=\count334
-\Gm@bindingoffset=\dimen303
-\Gm@wd@mp=\dimen304
-\Gm@odd@mp=\dimen305
-\Gm@even@mp=\dimen306
-\Gm@layoutwidth=\dimen307
-\Gm@layoutheight=\dimen308
-\Gm@layouthoffset=\dimen309
-\Gm@layoutvoffset=\dimen310
-\Gm@dimlist=\toks45
+\Gm@cnth=\count339
+\Gm@cntv=\count340
+\c@Gm@tempcnt=\count341
+\Gm@bindingoffset=\dimen318
+\Gm@wd@mp=\dimen319
+\Gm@odd@mp=\dimen320
+\Gm@even@mp=\dimen321
+\Gm@layoutwidth=\dimen322
+\Gm@layoutheight=\dimen323
+\Gm@layouthoffset=\dimen324
+\Gm@layoutvoffset=\dimen325
+\Gm@dimlist=\toks46
  (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count335
-\sf@farskip=\skip100
-\sf@captopadj=\dimen311
-\sf@capskip=\skip101
-\sf@nearskip=\skip102
-\c@subfigure=\count336
-\c@subfigure@save=\count337
-\c@subtable=\count338
-\c@subtable@save=\count339
-\sf@top=\skip103
-\sf@bottom=\skip104
+\c@KVtest=\count342
+\sf@farskip=\skip104
+\sf@captopadj=\dimen326
+\sf@capskip=\skip105
+\sf@nearskip=\skip106
+\c@subfigure=\count343
+\c@subfigure@save=\count344
+\c@subtable=\count345
+\c@subtable@save=\count346
+\sf@top=\skip107
+\sf@bottom=\skip108
 ) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titleps.sty
 Package: titleps 2021/07/05 v2.14 Page styles
 ) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip105
-\f@nch@O@elh=\skip106
-\f@nch@O@erh=\skip107
-\f@nch@O@olh=\skip108
-\f@nch@O@orh=\skip109
-\f@nch@O@elf=\skip110
-\f@nch@O@erf=\skip111
-\f@nch@O@olf=\skip112
-\f@nch@O@orf=\skip113
+\f@nch@headwidth=\skip109
+\f@nch@O@elh=\skip110
+\f@nch@O@erh=\skip111
+\f@nch@O@olh=\skip112
+\f@nch@O@orh=\skip113
+\f@nch@O@elf=\skip114
+\f@nch@O@erf=\skip115
+\f@nch@O@olf=\skip116
+\f@nch@O@orf=\skip117
 ) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count340
-\l__pdf_internal_box=\box68
+\l__color_backend_stack_int=\count347
+\l__pdf_internal_box=\box75
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
  (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count341
-\scratchdimen=\dimen312
-\scratchbox=\box69
-\nofMPsegments=\count342
-\nofMParguments=\count343
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count344
-\MPscratchDim=\dimen313
-\MPnumerator=\count345
-\makeMPintoPDFobject=\count346
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count348
+\scratchdimen=\dimen327
+\scratchbox=\box76
+\nofMPsegments=\count349
+\nofMParguments=\count350
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count351
+\MPscratchDim=\dimen328
+\MPnumerator=\count352
+\makeMPintoPDFobject=\count353
+\everyMPtoPDFconversion=\toks48
 ) (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \degres on input line 70.
-LaTeX Info: Redefining \up on input line 70.
-Package hyperref Info: Link coloring OFF on input line 70.
- (main.out) (main.out)
+LaTeX Info: Redefining \degres on input line 74.
+LaTeX Info: Redefining \up on input line 74.
+Package hyperref Info: Link coloring OFF on input line 74.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: longtable package is loaded.
+ (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
@@ -1301,32 +1357,26 @@ LaTeX Warning: Hyper reference `acro:DevOps' on page ii undefined on input line 
 
 ) [2
 
-] (main.toc
-LaTeX Font Info:    Calculating math sizes for size <11.99997> on input line 4.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
- (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
- (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 6.
- (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) [3{C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}])
+]
+No file main.toc.
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [4] (main.lof)
+[3]
+No file main.lof.
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [5] (main.lot)
+[4]
+No file main.lot.
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [6] (Introduction.tex
+[5] (Introduction.tex
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 1.
+ (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <37.32> not available
@@ -1340,7 +1390,7 @@ LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <13.20003> not available
 
 ) [0
 
-] (presentation.tex
+{C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (presentation.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1363,7 +1413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-<presentation/domaine.png, id=346, 1114.1625pt x 1028.84375pt>
+<presentation/domaine.png, id=61, 1114.1625pt x 1028.84375pt>
 File: presentation/domaine.png Graphic file (type png)
 <use presentation/domaine.png>
 Package pdftex.def Info: presentation/domaine.png  used on input line 52.
@@ -1379,17 +1429,24 @@ Overfull \hbox (10.6393pt too wide) in paragraph at lines 62--66
  []
 
 [3 <./presentation/domaine.png (PNG copy)>]
-<presentation/Microservice.png, id=358, 803.1606pt x 602.25pt>
+<presentation/Microservice.png, id=78, 803.1606pt x 602.25pt>
 File: presentation/Microservice.png Graphic file (type png)
 <use presentation/Microservice.png>
 Package pdftex.def Info: presentation/Microservice.png  used on input line 69.
 (pdftex.def)             Requested size: 417.4008pt x 312.9803pt.
-<presentation/devops.png, id=361, 1927.2pt x 1084.05pt>
+
+
+LaTeX Warning: Citation `1' on page 4 undefined on input line 76.
+
+<presentation/devops.png, id=80, 1927.2pt x 1084.05pt>
 File: presentation/devops.png Graphic file (type png)
 <use presentation/devops.png>
 Package pdftex.def Info: presentation/devops.png  used on input line 80.
 (pdftex.def)             Requested size: 404.63573pt x 227.62204pt.
- [4 <./presentation/Microservice.png>]
+[4 <./presentation/Microservice.png>]
+
+LaTeX Warning: Citation `2' on page 5 undefined on input line 88.
+
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 89.
 
@@ -1397,7 +1454,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
-<presentation/saas-vs-paas-vs-iaas-1024x953.png, id=371, 770.88pt x 717.43031pt>
+
+LaTeX Warning: Citation `3' on page 5 undefined on input line 92.
+
+
+LaTeX Warning: Citation `4' on page 5 undefined on input line 101.
+
+
+LaTeX Warning: Citation `5' on page 5 undefined on input line 110.
+
+<presentation/saas-vs-paas-vs-iaas-1024x953.png, id=89, 770.88pt x 717.43031pt>
 File: presentation/saas-vs-paas-vs-iaas-1024x953.png Graphic file (type png)
 <use presentation/saas-vs-paas-vs-iaas-1024x953.png>
 Package pdftex.def Info: presentation/saas-vs-paas-vs-iaas-1024x953.png  used on input line 114.
@@ -1408,9 +1474,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--118
  []
 
 [5 <./presentation/devops.png>]
+
+LaTeX Warning: Citation `6' on page 6 undefined on input line 123.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
+
+
+LaTeX Warning: Citation `7' on page 6 undefined on input line 125.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 125--126
@@ -1418,11 +1491,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
  []
 
 [6 <./presentation/saas-vs-paas-vs-iaas-1024x953.png>]
+
+LaTeX Warning: Citation `8' on page 7 undefined on input line 127.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-<presentation/cloud.png, id=393, 810.02625pt x 392.96812pt>
+<presentation/cloud.png, id=107, 810.02625pt x 392.96812pt>
 File: presentation/cloud.png Graphic file (type png)
 <use presentation/cloud.png>
 Package pdftex.def Info: presentation/cloud.png  used on input line 131.
@@ -1490,12 +1567,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
  []
 
-<agile-Scrum-sprint-workflow-schema-FR.png, id=405, 2550.52875pt x 1186.4325pt>
+<agile-Scrum-sprint-workflow-schema-FR.png, id=123, 2550.52875pt x 1186.4325pt>
 File: agile-Scrum-sprint-workflow-schema-FR.png Graphic file (type png)
 <use agile-Scrum-sprint-workflow-schema-FR.png>
 Package pdftex.def Info: agile-Scrum-sprint-workflow-schema-FR.png  used on input line 199.
 (pdftex.def)             Requested size: 428.13565pt x 199.16928pt.
-<presentation/Gantt.png, id=406, 1026.83624pt x 637.38126pt>
+<presentation/Gantt.png, id=124, 1026.83624pt x 637.38126pt>
 File: presentation/Gantt.png Graphic file (type png)
 <use presentation/Gantt.png>
 Package pdftex.def Info: presentation/Gantt.png  used on input line 214.
@@ -1505,8 +1582,12 @@ Overfull \hbox (27.32272pt too wide) in paragraph at lines 214--215
  [] 
  []
 
-[9 <./agile-Scrum-sprint-workflow-schema-FR.png>] [10 <./presentation/Gantt.png>]
-<azure.png, id=419, 1156.01888pt x 598.93762pt>
+[9 <./agile-Scrum-sprint-workflow-schema-FR.png>]
+
+LaTeX Warning: Citation `9' on page 10 undefined on input line 223.
+
+[10 <./presentation/Gantt.png>]
+<azure.png, id=141, 1156.01888pt x 598.93762pt>
 File: azure.png Graphic file (type png)
 <use azure.png>
 Package pdftex.def Info: azure.png  used on input line 242.
@@ -1521,14 +1602,21 @@ Overfull \hbox (13.37698pt too wide) in paragraph at lines 236--247
 []\T1/cmr/m/n/14.4 -- Azure De-vOps fonc-tionné par-ti-cu-liè-re-ment sur cloud qui né-ces-site une connexion
  []
 
+
+LaTeX Warning: Citation `10' on page 11 undefined on input line 251.
+
 [11 <./azure.png>]
-<AWS.png, id=428, 1597.97pt x 1010.77625pt>
+<AWS.png, id=149, 1597.97pt x 1010.77625pt>
 File: AWS.png Graphic file (type png)
 <use AWS.png>
 Package pdftex.def Info: AWS.png  used on input line 267.
 (pdftex.def)             Requested size: 426.79134pt x 269.95198pt.
- [12 <./AWS.png>]
-<presentation/GPC.png, id=435, 2208.25pt x 1196.47pt>
+
+
+LaTeX Warning: Citation `11' on page 12 undefined on input line 274.
+
+[12 <./AWS.png>]
+<presentation/GPC.png, id=158, 2208.25pt x 1196.47pt>
 File: presentation/GPC.png Graphic file (type png)
 <use presentation/GPC.png>
 Package pdftex.def Info: presentation/GPC.png  used on input line 294.
@@ -1552,6 +1640,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--307
  []
 
 [13 <./presentation/GPC.png>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 310.
+ (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 310.
+ (C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 LaTeX Font Info:    Calculating math sizes for size <13.00003> on input line 330.
 
 
@@ -1596,6 +1692,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
+LaTeX Warning: Citation `12' on page 16 undefined on input line 10.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 9--14
 
  []
@@ -1637,7 +1736,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-<Use case.drawio.png, id=466, 596.2275pt x 974.64125pt>
+<Use case.drawio.png, id=196, 596.2275pt x 974.64125pt>
 File: Use case.drawio.png Graphic file (type png)
 <use Use case.drawio.png>
 Package pdftex.def Info: Use case.drawio.png  used on input line 91.
@@ -1653,7 +1752,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
  []
 
 [20 <./Use case.drawio.png>]
-<usecase1.drawio.png, id=476, 752.8125pt x 362.35374pt>
+<usecase1.drawio.png, id=209, 752.8125pt x 362.35374pt>
 File: usecase1.drawio.png Graphic file (type png)
 <use usecase1.drawio.png>
 Package pdftex.def Info: usecase1.drawio.png  used on input line 106.
@@ -1674,7 +1773,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--149
  []
 
 [21 <./usecase1.drawio.png>]
-<UseCase2.drawio.png, id=482, 682.55pt x 362.35374pt>
+<UseCase2.drawio.png, id=218, 682.55pt x 362.35374pt>
 File: UseCase2.drawio.png Graphic file (type png)
 <use UseCase2.drawio.png>
 Package pdftex.def Info: UseCase2.drawio.png  used on input line 153.
@@ -1695,7 +1794,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--191
  []
 
 [22 <./UseCase2.drawio.png>]
-<UserCase3.drawio.png, id=488, 656.4525pt x 362.35374pt>
+<UserCase3.drawio.png, id=227, 656.4525pt x 362.35374pt>
 File: UserCase3.drawio.png Graphic file (type png)
 <use UserCase3.drawio.png>
 Package pdftex.def Info: UserCase3.drawio.png  used on input line 195.
@@ -1716,7 +1815,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--234
  []
 
 [23 <./UserCase3.drawio.png>]
-<usecase5.drawio.png, id=495, 796.9775pt x 322.20375pt>
+<usecase5.drawio.png, id=236, 796.9775pt x 322.20375pt>
 File: usecase5.drawio.png Graphic file (type png)
 <use usecase5.drawio.png>
 Package pdftex.def Info: usecase5.drawio.png  used on input line 238.
@@ -1737,7 +1836,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 279--280
  []
 
 [24 <./usecase5.drawio.png>]
-<Usecase6.drawio.png, id=501, 844.15375pt x 352.31625pt>
+<Usecase6.drawio.png, id=246, 844.15375pt x 352.31625pt>
 File: Usecase6.drawio.png Graphic file (type png)
 <use Usecase6.drawio.png>
 Package pdftex.def Info: Usecase6.drawio.png  used on input line 284.
@@ -1757,8 +1856,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
-[25 <./Usecase6.drawio.png>] [26]
-<Squence.drawio.png, id=513, 1613.02625pt x 1185.42876pt>
+[25 <./Usecase6.drawio.png>]
+
+LaTeX Warning: Citation `14' on page 26 undefined on input line 324.
+
+[26]
+<Squence.drawio.png, id=261, 1613.02625pt x 1185.42876pt>
 File: Squence.drawio.png Graphic file (type png)
 <use Squence.drawio.png>
 Package pdftex.def Info: Squence.drawio.png  used on input line 338.
@@ -1823,7 +1926,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\dimen@' on input line 345.
 
-<seqd.drawio.png, id=519, 659.8251pt x 573.1011pt>
+<seqd.drawio.png, id=268, 659.8251pt x 573.1011pt>
 File: seqd.drawio.png Graphic file (type png)
 <use seqd.drawio.png>
 Package pdftex.def Info: seqd.drawio.png  used on input line 349.
@@ -1833,7 +1936,7 @@ Overfull \hbox (28.45767pt too wide) in paragraph at lines 349--350
  [] 
  []
 
-<SEQCLUSTER.png, id=520, 522.5121pt x 493.6041pt>
+<SEQCLUSTER.png, id=269, 522.5121pt x 493.6041pt>
 File: SEQCLUSTER.png Graphic file (type png)
 <use SEQCLUSTER.png>
 Package pdftex.def Info: SEQCLUSTER.png  used on input line 359.
@@ -1847,7 +1950,7 @@ Overfull \hbox (28.45717pt too wide) in paragraph at lines 359--360
 
 
  <./seqd.drawio.png>]
-<SEQPIPELINE.png, id=526, 587.5551pt x 515.2851pt>
+<SEQPIPELINE.png, id=279, 587.5551pt x 515.2851pt>
 File: SEQPIPELINE.png Graphic file (type png)
 <use SEQPIPELINE.png>
 Package pdftex.def Info: SEQPIPELINE.png  used on input line 368.
@@ -1858,7 +1961,10 @@ Overfull \hbox (28.49399pt too wide) in paragraph at lines 368--369
  []
 
 [29 <./SEQCLUSTER.png>]
-<ClassDiagram.drawio.png, id=534, 1516.66624pt x 1302.8675pt>
+
+LaTeX Warning: Citation `13' on page 30 undefined on input line 377.
+
+<ClassDiagram.drawio.png, id=287, 1516.66624pt x 1302.8675pt>
 File: ClassDiagram.drawio.png Graphic file (type png)
 <use ClassDiagram.drawio.png>
 Package pdftex.def Info: ClassDiagram.drawio.png  used on input line 381.
@@ -1869,7 +1975,10 @@ Overfull \hbox (28.44519pt too wide) in paragraph at lines 381--382
  []
 
 [30 <./SEQPIPELINE.png>]
-<deploiment-1.drawio.png, id=542, 1150.2975pt x 603.25375pt>
+
+LaTeX Warning: Citation `15' on page 31 undefined on input line 388.
+
+<deploiment-1.drawio.png, id=296, 1150.2975pt x 603.25375pt>
 File: deploiment-1.drawio.png Graphic file (type png)
 <use deploiment-1.drawio.png>
 Package pdftex.def Info: deploiment-1.drawio.png  used on input line 392.
@@ -1880,7 +1989,7 @@ Overfull \hbox (35.25597pt too wide) in paragraph at lines 392--393
  []
 
 [31 <./ClassDiagram.drawio.png>] [32 <./deploiment-1.drawio.png>]
-<GLOBALAWS.png, id=554, 986.7264pt x 447.53198pt>
+<GLOBALAWS.png, id=311, 986.7264pt x 447.53198pt>
 File: GLOBALAWS.png Graphic file (type png)
 <use GLOBALAWS.png>
 Package pdftex.def Info: GLOBALAWS.png  used on input line 417.
@@ -1890,7 +1999,7 @@ Package pdftex.def Info: GLOBALAWS.png  used on input line 417.
 LaTeX Warning: Float too large for page by 22.02654pt on input line 419.
 
 [33 <./GLOBALAWS.png>]
-<LOCAL.drawio.png, id=560, 233.07076pt x 141.46852pt>
+<LOCAL.drawio.png, id=318, 233.07076pt x 141.46852pt>
 File: LOCAL.drawio.png Graphic file (type png)
 <use LOCAL.drawio.png>
 Package pdftex.def Info: LOCAL.drawio.png  used on input line 428.
@@ -1899,7 +2008,7 @@ Package pdftex.def Info: LOCAL.drawio.png  used on input line 428.
 
 
  <./LOCAL.drawio.png>]
-<PARTIEEKS.drawio.png, id=566, 999.4941pt x 646.0938pt>
+<PARTIEEKS.drawio.png, id=325, 999.4941pt x 646.0938pt>
 File: PARTIEEKS.drawio.png Graphic file (type png)
 <use PARTIEEKS.drawio.png>
 Package pdftex.def Info: PARTIEEKS.drawio.png  used on input line 465.
@@ -1915,35 +2024,857 @@ Underfull \hbox (badness 10000) in paragraph at lines 469--492
  []
 
 [35 <./PARTIEEKS.drawio.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 498--499
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
 
  []
 
-) [36] (main.bbl) [37
+) (autre_partie.tex [36]
+Chapitre 3.
+[37
+
+]
+<autre_partie/VSCODE.png, id=345, 1284.8pt x 722.7pt>
+File: autre_partie/VSCODE.png Graphic file (type png)
+<use autre_partie/VSCODE.png>
+Package pdftex.def Info: autre_partie/VSCODE.png  used on input line 45.
+(pdftex.def)             Requested size: 85.35774pt x 85.35284pt.
+
+Underfull \hbox (badness 1983) in paragraph at lines 45--46
+[]|\T1/cmr/bx/n/10 Nous avons uti-lisé Vi-sual
+ []
+
+<autre_partie/VMW.png, id=346, 256.96pt x 256.96pt>
+File: autre_partie/VMW.png Graphic file (type png)
+<use autre_partie/VMW.png>
+Package pdftex.def Info: autre_partie/VMW.png  used on input line 47.
+(pdftex.def)             Requested size: 56.9055pt x 56.90385pt.
+
+LaTeX Warning: Citation `21' on page 38 undefined on input line 47.
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 47--47
+\T1/cmr/bx/n/10 ou-til de vir-tua-li-sa-tion de
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 47--47
+\T1/cmr/bx/n/10 poste de tra-vail créé par
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 47--47
+\T1/cmr/bx/n/10 test pour dé-ve-lop-per de
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 47--47
+\T1/cmr/bx/n/10 tes-ter l'ar-chi-tec-ture com-
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 47--47
+\T1/cmr/bx/n/10 ta-tion avant de l'ins-tal-ler
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 47--48
+\T1/cmr/bx/n/10 ma-chine pour de-ployée le
+ []
+
+<autre_partie/Latex.png, id=347, 240.9pt x 200.75pt>
+File: autre_partie/Latex.png Graphic file (type png)
+<use autre_partie/Latex.png>
+Package pdftex.def Info: autre_partie/Latex.png  used on input line 49.
+(pdftex.def)             Requested size: 113.81102pt x 94.8426pt.
+
+Underfull \hbox (badness 1210) in paragraph at lines 49--49
+\T1/cmr/bx/n/10 po-si-tion TeX pour for-ma-
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 49--49
+\T1/cmr/bx/n/10 ter sa sor-tie, et est lui-
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 49--49
+\T1/cmr/bx/n/10 lar-ge-ment uti-lisé dans les
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 49--50
+[]|\T1/cmr/bx/n/10 Nous avons uti-lisé La-tex
+ []
+
+<autre_partie/GitHub-Logo.png, id=348, 3854.4pt x 2168.1pt>
+File: autre_partie/GitHub-Logo.png Graphic file (type png)
+<use autre_partie/GitHub-Logo.png>
+Package pdftex.def Info: autre_partie/GitHub-Logo.png  used on input line 51.
+(pdftex.def)             Requested size: 56.9055pt x 31.99077pt.
+
+Underfull \hbox (badness 1867) in paragraph at lines 51--51
+[]|\T1/cmr/bx/n/10 Github est un site dé-ve-
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 51--51
+\T1/cmr/bx/n/10 vices qui aident les dé-ve-
+ []
+
+<autre_partie/Docker-Symbol.png, id=349, 3854.4pt x 2168.1pt>
+File: autre_partie/Docker-Symbol.png Graphic file (type png)
+<use autre_partie/Docker-Symbol.png>
+Package pdftex.def Info: autre_partie/Docker-Symbol.png  used on input line 53.
+(pdftex.def)             Requested size: 56.9055pt x 31.99077pt.
+
+Underfull \hbox (badness 1490) in paragraph at lines 53--54
+[]|\T1/cmr/bx/n/10 Nous avons uti-lisé do-cker
+ []
+
+[38] [39 <./autre_partie/VSCODE.png> <./autre_partie/VMW.png> <./autre_partie/Latex.png> <./autre_partie/GitHub-Logo.png> <./autre_partie/Docker-Symbol.png>]
+<autre_partie/github-actions.png, id=366, 800.9925pt x 608.2725pt>
+File: autre_partie/github-actions.png Graphic file (type png)
+<use autre_partie/github-actions.png>
+Package pdftex.def Info: autre_partie/github-actions.png  used on input line 67.
+(pdftex.def)             Requested size: 85.35826pt x 64.81256pt.
+
+Underfull \hbox (badness 1107) in paragraph at lines 67--68
+\T1/cmr/bx/n/10 l'exé-cu-tion de notre pi-pe-
+ []
+
+<autre_partie/Nexus.png, id=367, 235.1184pt x 311.2428pt>
+File: autre_partie/Nexus.png Graphic file (type png)
+<use autre_partie/Nexus.png>
+Package pdftex.def Info: autre_partie/Nexus.png  used on input line 69.
+(pdftex.def)             Requested size: 85.35826pt x 112.9924pt.
+
+Underfull \hbox (badness 1168) in paragraph at lines 69--69
+[]|\T1/cmr/bx/n/10 Nexus est ges-tion-naire de
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 69--69
+\T1/cmr/bx/n/10 fé-rents ar-te-facts et image
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 69--70
+[]|\T1/cmr/bx/n/10 Nous avons uti-lisé Nexus
+ []
+
+<autre_partie/SONARQ.png, id=368, 682.55pt x 224.84pt>
+File: autre_partie/SONARQ.png Graphic file (type png)
+<use autre_partie/SONARQ.png>
+Package pdftex.def Info: autre_partie/SONARQ.png  used on input line 71.
+(pdftex.def)             Requested size: 85.35826pt x 28.11522pt.
+
+Underfull \hbox (badness 3209) in paragraph at lines 71--71
+[]|\T1/cmr/bx/n/10 sonarqube est une pla-te-
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 71--71
+\T1/cmr/bx/n/10 le contrôle de code qua-
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 71--71
+\T1/cmr/bx/n/10 fé-rents lan-gages et fra-me-
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 71--72
+[]|\T1/cmr/bx/n/10 Nous avons uti-lisé So-nar-
+ []
+
+<autre_partie/ANSIBLE.png, id=369, 803.0pt x 803.0pt>
+File: autre_partie/ANSIBLE.png Graphic file (type png)
+<use autre_partie/ANSIBLE.png>
+Package pdftex.def Info: autre_partie/ANSIBLE.png  used on input line 73.
+(pdftex.def)             Requested size: 85.35826pt x 85.35284pt.
+
+Underfull \hbox (badness 1472) in paragraph at lines 73--73
+\T1/cmr/bx/n/10 il four-nit des ou-tils pour
+ []
+
+<autre_partie/K8s.png, id=370, 361.35pt x 210.7875pt>
+File: autre_partie/K8s.png Graphic file (type png)
+<use autre_partie/K8s.png>
+Package pdftex.def Info: autre_partie/K8s.png  used on input line 75.
+(pdftex.def)             Requested size: 113.81102pt x 66.38876pt.
+<autre_partie/prometheus-logo-png-transparent.png, id=371, 774.895pt x 405.515pt>
+File: autre_partie/prometheus-logo-png-transparent.png Graphic file (type png)
+<use autre_partie/prometheus-logo-png-transparent.png>
+Package pdftex.def Info: autre_partie/prometheus-logo-png-transparent.png  used on input line 77.
+(pdftex.def)             Requested size: 85.35826pt x 44.66866pt.
+
+Underfull \hbox (badness 2368) in paragraph at lines 77--78
+\T1/cmr/bx/n/10 dif-fèrent don-nées des ou-
+ []
+
+<autre_partie/grafana-logo.png, id=372, 200.37314pt x 204.80849pt>
+File: autre_partie/grafana-logo.png Graphic file (type png)
+<use autre_partie/grafana-logo.png>
+Package pdftex.def Info: autre_partie/grafana-logo.png  used on input line 79.
+(pdftex.def)             Requested size: 56.9055pt x 58.16475pt.
+
+Underfull \hbox (badness 3209) in paragraph at lines 79--79
+\T1/cmr/bx/n/10 Il four-nit des gra-phiques
+ []
+
+
+Overfull \vbox (1.66452pt too high) has occurred while \output is active []
+
+ [40 <./autre_partie/github-actions.png> <./autre_partie/Nexus.png> <./autre_partie/SONARQ.png> <./autre_partie/ANSIBLE.png> <./autre_partie/K8s.png (PNG copy)> <./autre_partie/prometheus-logo-png-transparent.png> <./autre_partie/grafana-logo.png>]
+<autre_partie/Slack_RGB.png, id=384, 624.8946pt x 255.8358pt>
+File: autre_partie/Slack_RGB.png Graphic file (type png)
+<use autre_partie/Slack_RGB.png>
+Package pdftex.def Info: autre_partie/Slack_RGB.png  used on input line 92.
+(pdftex.def)             Requested size: 113.81102pt x 46.59497pt.
+
+Underfull \hbox (badness 4967) in paragraph at lines 92--93
+[]|\T1/cmr/bx/n/10 Nous avons uti-lisé Slack
+ []
+
+<autre_partie/EKS.png, id=385, 402.50375pt x 257.96375pt>
+File: autre_partie/EKS.png Graphic file (type png)
+<use autre_partie/EKS.png>
+Package pdftex.def Info: autre_partie/EKS.png  used on input line 94.
+(pdftex.def)             Requested size: 113.81102pt x 72.93787pt.
+<autre_partie/ECR.png, id=386, 888.31876pt x 240.9pt>
+File: autre_partie/ECR.png Graphic file (type png)
+<use autre_partie/ECR.png>
+Package pdftex.def Info: autre_partie/ECR.png  used on input line 96.
+(pdftex.def)             Requested size: 85.35826pt x 23.14671pt.
+
+Underfull \hbox (badness 6675) in paragraph at lines 96--96
+[]|\T1/cmr/bx/n/10 Amazon elas-tic contai-ner
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 96--96
+\T1/cmr/bx/n/10 per-toires soit pu-blic soit
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 96--97
+\T1/cmr/bx/n/10 en-re-gis-trer notre dif-fèrent
+ []
+
+<autre_partie/EC2.png, id=387, 361.35pt x 230.8625pt>
+File: autre_partie/EC2.png Graphic file (type png)
+<use autre_partie/EC2.png>
+Package pdftex.def Info: autre_partie/EC2.png  used on input line 98.
+(pdftex.def)             Requested size: 113.81102pt x 72.71149pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]|\T1/cmr/bx/n/10 EC2 (Elas-tic Com-pute
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 98--98
+\T1/cmr/bx/n/10 uti-li-sa-teurs de louer des
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 98--98
+\T1/cmr/bx/n/10 or-di-na-teurs vir-tuels pour
+ []
+
+
+Package array Warning: Column C is already defined on input line 107.
+
+<autre_partie/ReactJs.png, id=388, 523.9575pt x 344.28625pt>
+File: autre_partie/ReactJs.png Graphic file (type png)
+<use autre_partie/ReactJs.png>
+Package pdftex.def Info: autre_partie/ReactJs.png  used on input line 116.
+(pdftex.def)             Requested size: 56.89996pt x 56.90459pt.
+
+Underfull \hbox (badness 2065) in paragraph at lines 116--116
+\T1/cmr/bx/n/10 open source uti-li-sée pour
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 116--117
+[]|\T1/cmr/bx/n/10 Cette lan-gage est uti-li-sée
+ []
+
+<autre_partie/yaml.png, id=389, 513.92pt x 513.92pt>
+File: autre_partie/yaml.png Graphic file (type png)
+<use autre_partie/yaml.png>
+Package pdftex.def Info: autre_partie/yaml.png  used on input line 118.
+(pdftex.def)             Requested size: 56.9055pt x 56.89993pt.
+
+Underfull \hbox (badness 1852) in paragraph at lines 118--119
+\T1/cmr/bx/n/10 pour créer dif-fé-rent play-
+ []
+
+[41 <./autre_partie/Slack_RGB.png> <./autre_partie/EKS.png> <./autre_partie/ECR.png> <./autre_partie/EC2.png> <./autre_partie/ReactJs.png> <./autre_partie/yaml.png>]
+
+Package array Warning: Column C is already defined on input line 127.
+
+<autre_partie/Draw.png, id=403, 843.15pt x 843.15pt>
+File: autre_partie/Draw.png Graphic file (type png)
+<use autre_partie/Draw.png>
+Package pdftex.def Info: autre_partie/Draw.png  used on input line 136.
+(pdftex.def)             Requested size: 56.9055pt x 56.90373pt.
+<autre_partie/Canva-Logo.png, id=404, 770.88pt x 422.57875pt>
+File: autre_partie/Canva-Logo.png Graphic file (type png)
+<use autre_partie/Canva-Logo.png>
+Package pdftex.def Info: autre_partie/Canva-Logo.png  used on input line 138.
+(pdftex.def)             Requested size: 113.81102pt x 62.38463pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/cmr/bx/n/10 Canva est un ou-til de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/cmr/bx/n/10 concep-tion gra-phique en
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 138--138
+\T1/cmr/bx/n/10 ligne gra-tuit,utiliser pour
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 138--139
+[]|\T1/cmr/bx/n/10 Nous avons uti-lisé canva
+ []
+
+<autre_partie/VARS.png, id=405, 577.15625pt x 498.86375pt>
+File: autre_partie/VARS.png Graphic file (type png)
+<use autre_partie/VARS.png>
+Package pdftex.def Info: autre_partie/VARS.png  used on input line 151.
+(pdftex.def)             Requested size: 284.53514pt x 284.53798pt.
+
+Overfull \hbox (3.86938pt too wide) in paragraph at lines 148--154
+\T1/ptm/m/n/18.87616 ECR.ou dé-but en de-fi-nit les dif-fé-rent va-riables pour les res-sources 
+ []
+
+[42 <./autre_partie/Draw.png> <./autre_partie/Canva-Logo.png>]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <18.87616> not available
+(Font)              size <17.28> substituted on input line 246.
+
+<VPC.png, id=417, 431.6125pt x 199.74625pt>
+File: VPC.png Graphic file (type png)
+<use VPC.png>
+Package pdftex.def Info: VPC.png  used on input line 246.
+(pdftex.def)             Requested size: 284.52756pt x 131.68053pt.
+<SUBNETS.png, id=418, 548.0475pt x 381.425pt>
+File: SUBNETS.png Graphic file (type png)
+<use SUBNETS.png>
+Package pdftex.def Info: SUBNETS.png  used on input line 246.
+(pdftex.def)             Requested size: 284.52756pt x 198.02785pt.
+[43 <./autre_partie/VARS.png> <./VPC.png>]
+<IGW.png, id=427, 620.3175pt x 217.81375pt>
+File: IGW.png Graphic file (type png)
+<use IGW.png>
+Package pdftex.def Info: IGW.png  used on input line 246.
+(pdftex.def)             Requested size: 312.9803pt x 109.89702pt.
+<ROUTE.png, id=428, 703.62875pt x 356.33125pt>
+File: ROUTE.png Graphic file (type png)
+<use ROUTE.png>
+Package pdftex.def Info: ROUTE.png  used on input line 246.
+(pdftex.def)             Requested size: 312.9803pt x 158.49893pt.
+<SECURITYGR.png, id=429, 703.62875pt x 376.40625pt>
+File: SECURITYGR.png Graphic file (type png)
+<use SECURITYGR.png>
+Package pdftex.def Info: SECURITYGR.png  used on input line 246.
+(pdftex.def)             Requested size: 312.9803pt x 167.42845pt.
+ [44 <./SUBNETS.png> <./IGW.png> <./ROUTE.png>]
+<EKSCL.png, id=440, 557.08125pt x 278.03876pt>
+File: EKSCL.png Graphic file (type png)
+<use EKSCL.png>
+Package pdftex.def Info: EKSCL.png  used on input line 246.
+(pdftex.def)             Requested size: 312.9803pt x 156.20973pt.
+<WORKERNODES.png, id=441, 637.38126pt x 329.23pt>
+File: WORKERNODES.png Graphic file (type png)
+<use WORKERNODES.png>
+Package pdftex.def Info: WORKERNODES.png  used on input line 246.
+(pdftex.def)             Requested size: 312.9803pt x 161.66571pt.
+<ECRPH.png, id=442, 400.49625pt x 127.47626pt>
+File: ECRPH.png Graphic file (type png)
+<use ECRPH.png>
+Package pdftex.def Info: ECRPH.png  used on input line 246.
+(pdftex.def)             Requested size: 312.9803pt x 99.62558pt.
+ [45 <./SECURITYGR.png> <./EKSCL.png> <./WORKERNODES.png>]
+<EKSRESPUP.png, id=453, 957.5775pt x 865.2325pt>
+File: EKSRESPUP.png Graphic file (type png)
+<use EKSRESPUP.png>
+Package pdftex.def Info: EKSRESPUP.png  used on input line 246.
+(pdftex.def)             Requested size: 483.69702pt x 369.89073pt.
+
+Overfull \hbox (6.80014pt too wide) in paragraph at lines 246--246
+ [] 
+ []
+
+<VM.png, id=454, 1929.2075pt x 1053.9375pt>
+File: VM.png Graphic file (type png)
+<use VM.png>
+Package pdftex.def Info: VM.png  used on input line 331.
+(pdftex.def)             Requested size: 512.1496pt x 279.79065pt.
+
+Overfull \hbox (35.25272pt too wide) in paragraph at lines 331--331
+ [] 
+ []
+
+[46 <./ECRPH.png> <./EKSRESPUP.png>]
+
+LaTeX Warning: File `installer.png' not found on input line 331.
+
+
+autre_partie.tex:331: Package pdftex.def Error: File `installer.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.331          }
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (6.93358pt too wide) in paragraph at lines 331--331
+ [] 
+ []
+
+
+LaTeX Warning: File `installer2.png' not found on input line 331.
+
+
+autre_partie.tex:331: Package pdftex.def Error: File `installer2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.331          }
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[47 <./VM.png>]
+
+LaTeX Warning: File `installer3.png' not found on input line 331.
+
+
+autre_partie.tex:331: Package pdftex.def Error: File `installer3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.331          }
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[48] [49]
+
+LaTeX Warning: File `resultatwhit.png' not found on input line 331.
+
+
+autre_partie.tex:331: Package pdftex.def Error: File `resultatwhit.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.331          }
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (6.93358pt too wide) in paragraph at lines 331--331
+ [] 
+ []
+
+[50]
+
+LaTeX Warning: File `Conf.png' not found on input line 331.
+
+
+autre_partie.tex:331: Package pdftex.def Error: File `Conf.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.331          }
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[51]
+
+LaTeX Warning: File `CONF.png' not found on input line 331.
+
+
+autre_partie.tex:331: Package pdftex.def Error: File `CONF.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.331          }
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (6.93358pt too wide) in paragraph at lines 331--331
+ [] 
+ []
+
+
+Overfull \hbox (1.85591pt too wide) in paragraph at lines 331--331
+[][]\T1/ptm/m/n/18.87616 Résultats de l'exé-cu-tion de la play-book "Config-Mas-ter.yaml"
+ []
+
+[52]
+<Network.png, id=498, 1077.02374pt x 320.19624pt>
+File: Network.png Graphic file (type png)
+<use Network.png>
+Package pdftex.def Info: Network.png  used on input line 331.
+(pdftex.def)             Requested size: 512.15036pt x 256.07916pt.
+
+Overfull \hbox (35.25348pt too wide) in paragraph at lines 331--331
+ [] 
+ []
+
+[53]
+<NetworkWHITE.png, id=504, 948.54375pt x 501.875pt>
+File: NetworkWHITE.png Graphic file (type png)
+<use NetworkWHITE.png>
+Package pdftex.def Info: NetworkWHITE.png  used on input line 331.
+(pdftex.def)             Requested size: 512.16257pt x 341.44661pt.
+
+Overfull \hbox (35.26569pt too wide) in paragraph at lines 331--331
+ [] 
+ []
+
+
+Overfull \hbox (11.67178pt too wide) in paragraph at lines 331--331
+[][]\T1/ptm/m/n/18.87616 Résultats de l'exé-cu-tion de la play-book "Net-work-Po-licy.yaml"
+ []
+
+[54 <./Network.png>]
+<CLUSTERLOCAL.png, id=512, 623.32875pt x 246.9225pt>
+File: CLUSTERLOCAL.png Graphic file (type png)
+<use CLUSTERLOCAL.png>
+Package pdftex.def Info: CLUSTERLOCAL.png  used on input line 331.
+(pdftex.def)             Requested size: 426.7969pt x 284.54263pt.
+ [55 <./NetworkWHITE.png>]
+<SONARFILES.png, id=519, 266.9975pt x 170.6375pt>
+File: SONARFILES.png Graphic file (type png)
+<use SONARFILES.png>
+Package pdftex.def Info: SONARFILES.png  used on input line 357.
+(pdftex.def)             Requested size: 227.62204pt x 145.47736pt.
+<SONAKUBE.png, id=520, 650.43pt x 110.4125pt>
+File: SONAKUBE.png Graphic file (type png)
+<use SONAKUBE.png>
+Package pdftex.def Info: SONAKUBE.png  used on input line 357.
+(pdftex.def)             Requested size: 398.33858pt x 67.62108pt.
+
+Overfull \hbox (1.00815pt too wide) in paragraph at lines 357--357
+[][]\T1/ptm/m/n/18.87616 "kubectl ap-ply -f ./so-nar-qube -n so-nar-qube" (voir fi-gure 5.22) 
+ []
+
+[56 <./CLUSTERLOCAL.png> <./SONARFILES.png>]
+<SONARINTERFACE.png, id=530, 1534.73375pt x 658.46pt>
+File: SONARINTERFACE.png Graphic file (type png)
+<use SONARINTERFACE.png>
+Package pdftex.def Info: SONARINTERFACE.png  used on input line 357.
+(pdftex.def)             Requested size: 512.1496pt x 219.73396pt.
+
+Overfull \hbox (35.25272pt too wide) in paragraph at lines 357--357
+ [] 
+ []
+
+<NEXUSFILES.png, id=531, 213.79875pt x 138.5175pt>
+File: NEXUSFILES.png Graphic file (type png)
+<use NEXUSFILES.png>
+Package pdftex.def Info: NEXUSFILES.png  used on input line 383.
+(pdftex.def)             Requested size: 199.16928pt x 129.03975pt.
+[57 <./SONAKUBE.png> <./SONARINTERFACE.png>]
+<NEXUSKUBE.png, id=541, 638.385pt x 96.36pt>
+File: NEXUSKUBE.png Graphic file (type png)
+<use NEXUSKUBE.png>
+Package pdftex.def Info: NEXUSKUBE.png  used on input line 383.
+(pdftex.def)             Requested size: 398.33858pt x 60.12631pt.
+<NEXUSINTERFACE.png, id=542, 1920.17375pt x 367.3725pt>
+File: NEXUSINTERFACE.png Graphic file (type png)
+<use NEXUSINTERFACE.png>
+Package pdftex.def Info: NEXUSINTERFACE.png  used on input line 383.
+(pdftex.def)             Requested size: 512.1496pt x 97.98668pt.
+
+Overfull \hbox (35.25272pt too wide) in paragraph at lines 383--383
+ [] 
+ []
+
+<MONITORING.png, id=543, 376.40625pt x 763.85374pt>
+File: MONITORING.png Graphic file (type png)
+<use MONITORING.png>
+Package pdftex.def Info: MONITORING.png  used on input line 402.
+(pdftex.def)             Requested size: 199.16928pt x 404.18785pt.
+[58 <./NEXUSFILES.png> <./NEXUSKUBE.png> <./NEXUSINTERFACE.png>]
+<MONIKUBE.png, id=555, 793.96625pt x 133.49875pt>
+File: MONIKUBE.png Graphic file (type png)
+<use MONIKUBE.png>
+Package pdftex.def Info: MONIKUBE.png  used on input line 402.
+(pdftex.def)             Requested size: 426.79134pt x 71.76231pt.
+
+Overfull \hbox (12.16318pt too wide) in paragraph at lines 402--402
+[][]\T1/ptm/m/n/18.87616 "kubectl ap-ply -f ./Mo-ni-to-ring -n mo-ni-to-ring"(voir fi-gure 5.28) 
+ []
+
+[59 <./MONITORING.png> <./MONIKUBE.png>]
+<PIPE111.png, id=564, 1216.545pt x 921.4425pt>
+File: PIPE111.png Graphic file (type png)
+<use PIPE111.png>
+Package pdftex.def Info: PIPE111.png  used on input line 451.
+(pdftex.def)             Requested size: 483.69499pt x 341.42049pt.
+
+Overfull \hbox (6.79811pt too wide) in paragraph at lines 451--451
+ [] 
+ []
+
+<PIPE121.png, id=565, 1379.1525pt x 669.50125pt>
+File: PIPE121.png Graphic file (type png)
+<use PIPE121.png>
+Package pdftex.def Info: PIPE121.png  used on input line 451.
+(pdftex.def)             Requested size: 483.69968pt x 341.44112pt.
+
+Overfull \hbox (6.8028pt too wide) in paragraph at lines 451--451
+ [] 
+ []
+
+[60 <./PIPE111.png>]
+<GITA1.png, id=575, 422.57875pt x 529.98pt>
+File: GITA1.png Graphic file (type png)
+<use GITA1.png>
+Package pdftex.def Info: GITA1.png  used on input line 451.
+(pdftex.def)             Requested size: 284.53195pt x 341.43416pt.
+ [61 <./PIPE121.png>]
+<PIPE211.png, id=582, 1198.4775pt x 884.30376pt>
+File: PIPE211.png Graphic file (type png)
+<use PIPE211.png>
+Package pdftex.def Info: PIPE211.png  used on input line 451.
+(pdftex.def)             Requested size: 526.3808pt x 369.89378pt.
+
+Overfull \hbox (49.48392pt too wide) in paragraph at lines 451--451
+ [] 
+ []
+
+<PIPE222.png, id=583, 901.3675pt x 494.84875pt>
+File: PIPE222.png Graphic file (type png)
+<use PIPE222.png>
+Package pdftex.def Info: PIPE222.png  used on input line 451.
+(pdftex.def)             Requested size: 512.17561pt x 256.0694pt.
+
+Overfull \hbox (35.27873pt too wide) in paragraph at lines 451--451
+ [] 
+ []
+
+[62 <./GITA1.png>]
+<GITA2.png, id=590, 422.57875pt x 529.98pt>
+File: GITA2.png Graphic file (type png)
+<use GITA2.png>
+Package pdftex.def Info: GITA2.png  used on input line 451.
+(pdftex.def)             Requested size: 284.53195pt x 341.43416pt.
+ [63 <./PIPE211.png> <./PIPE222.png>]
+<RUNNER.png, id=599, 690.58pt x 636.3775pt>
+File: RUNNER.png Graphic file (type png)
+<use RUNNER.png>
+Package pdftex.def Info: RUNNER.png  used on input line 456.
+(pdftex.def)             Requested size: 512.1496pt x 471.9607pt.
+
+Overfull \hbox (35.25272pt too wide) in paragraph at lines 456--457
+ [] 
+ []
+
+[64 <./GITA2.png>]
+<APPTEST.png, id=607, 1927.2pt x 1009.7725pt>
+File: APPTEST.png Graphic file (type png)
+<use APPTEST.png>
+Package pdftex.def Info: APPTEST.png  used on input line 493.
+(pdftex.def)             Requested size: 483.68085pt x 227.62042pt.
+
+Overfull \hbox (6.78397pt too wide) in paragraph at lines 493--493
+ [] 
+ []
+
+
+Overfull \hbox (5.10919pt too wide) in paragraph at lines 493--493
+[] \T1/ptm/m/n/18.87616 Aprés l'exé-cu-tion d'un pi-pe-line l'ap-pli-ca-tion sera de-ployé dans
+ []
+
+[65 <./RUNNER.png>]
+<ECRREPO1.png, id=614, 1635.10875pt x 322.20375pt>
+File: ECRREPO1.png Graphic file (type png)
+<use ECRREPO1.png>
+Package pdftex.def Info: ECRREPO1.png  used on input line 493.
+(pdftex.def)             Requested size: 483.67525pt x 170.72292pt.
+
+Overfull \hbox (6.77837pt too wide) in paragraph at lines 493--493
+ [] 
+ []
+
+
+Overfull \hbox (1.05083pt too wide) in paragraph at lines 493--493
+[]\T1/ptm/m/n/18.87616 L'image do-cker de cette ver-sion d'ap-pli-ca-tion sera sto-cker dans
+ []
+
+<APPFINAL.png, id=615, 1927.2pt x 965.6075pt>
+File: APPFINAL.png Graphic file (type png)
+<use APPFINAL.png>
+Package pdftex.def Info: APPFINAL.png  used on input line 493.
+(pdftex.def)             Requested size: 483.68085pt x 227.61029pt.
+
+Overfull \hbox (6.78397pt too wide) in paragraph at lines 493--493
+ [] 
+ []
+
+[66 <./APPTEST.png> <./ECRREPO1.png>]
+<ECRREPO2.png, id=625, 1639.12375pt x 494.84875pt>
+File: ECRREPO2.png Graphic file (type png)
+<use ECRREPO2.png>
+Package pdftex.def Info: ECRREPO2.png  used on input line 493.
+(pdftex.def)             Requested size: 483.6874pt x 170.71545pt.
+
+Overfull \hbox (6.79051pt too wide) in paragraph at lines 493--493
+ [] 
+ []
+
+
+Overfull \hbox (1.05083pt too wide) in paragraph at lines 493--493
+[]\T1/ptm/m/n/18.87616 L'image do-cker de cette ver-sion d'ap-pli-ca-tion sera sto-cker dans
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
+
+ []
+
+<PROMETHEUSINTERFACE1.png, id=626, 1927.2pt x 611.28375pt>
+File: PROMETHEUSINTERFACE1.png Graphic file (type png)
+<use PROMETHEUSINTERFACE1.png>
+Package pdftex.def Info: PROMETHEUSINTERFACE1.png  used on input line 506.
+(pdftex.def)             Requested size: 483.68085pt x 227.61719pt.
+
+Overfull \hbox (6.78397pt too wide) in paragraph at lines 506--506
+ [] 
+ []
+
+[67 <./APPFINAL.png> <./ECRREPO2.png>]
+<ALERTINTERFACE.png, id=636, 1214.5375pt x 618.31pt>
+File: ALERTINTERFACE.png Graphic file (type png)
+<use ALERTINTERFACE.png>
+Package pdftex.def Info: ALERTINTERFACE.png  used on input line 527.
+(pdftex.def)             Requested size: 512.1496pt x 260.73567pt.
+
+Overfull \hbox (35.25272pt too wide) in paragraph at lines 527--527
+ [] 
+ []
+
+<SLACKALERT.png, id=637, 915.42pt x 778.91pt>
+File: SLACKALERT.png Graphic file (type png)
+<use SLACKALERT.png>
+Package pdftex.def Info: SLACKALERT.png  used on input line 527.
+(pdftex.def)             Requested size: 512.1496pt x 435.79442pt.
+
+Overfull \hbox (35.25272pt too wide) in paragraph at lines 527--527
+ [] 
+ []
+
+[68 <./PROMETHEUSINTERFACE1.png> <./ALERTINTERFACE.png>]
+<Grafana2.png, id=648, 1687.30376pt x 585.18625pt>
+File: Grafana2.png Graphic file (type png)
+<use Grafana2.png>
+Package pdftex.def Info: Grafana2.png  used on input line 567.
+(pdftex.def)             Requested size: 483.6929pt x 284.53825pt.
+
+Overfull \hbox (6.79602pt too wide) in paragraph at lines 567--567
+ [] 
+ []
+
+[69 <./SLACKALERT.png>]
+<EXEMPLE11.png, id=656, 1927.2pt x 940.51375pt>
+File: EXEMPLE11.png Graphic file (type png)
+<use EXEMPLE11.png>
+Package pdftex.def Info: EXEMPLE11.png  used on input line 567.
+(pdftex.def)             Requested size: 526.34993pt x 369.88437pt.
+
+Overfull \hbox (49.45305pt too wide) in paragraph at lines 567--567
+ [] 
+ []
+
+
+Overfull \hbox (19.65579pt too wide) in paragraph at lines 567--567
+[][]\T1/ptm/m/n/18.87616 Dans les fi-gures sui-vante nous al-lons pré-senté dif-fèrent exemple
+ []
+
+[70 <./Grafana2.png>]
+<EXEMPLE22.png, id=663, 1924.18875pt x 899.36pt>
+File: EXEMPLE22.png Graphic file (type png)
+<use EXEMPLE22.png>
+Package pdftex.def Info: EXEMPLE22.png  used on input line 567.
+(pdftex.def)             Requested size: 526.37895pt x 369.879pt.
+
+Overfull \hbox (49.48207pt too wide) in paragraph at lines 567--567
+ [] 
+ []
+
+[71 <./EXEMPLE11.png>]
+<EXEMPLE31.png, id=670, 1923.185pt x 841.1425pt>
+File: EXEMPLE31.png Graphic file (type png)
+<use EXEMPLE31.png>
+Package pdftex.def Info: EXEMPLE31.png  used on input line 567.
+(pdftex.def)             Requested size: 512.1496pt x 223.99266pt.
+
+Overfull \hbox (35.25272pt too wide) in paragraph at lines 567--567
+ [] 
+ []
+
+) [72 <./EXEMPLE22.png> <./EXEMPLE31.png>] [73] (main.bbl) [74
 
 ] (main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.19997pt have occurred.
+(Font)              up to 1.59616pt have occurred.
 
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7A32B03BB0C3231DE844C122BBD210CD;9408.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  00FE6282B0CA1DBBCAF9189936C60B76;14156.
  ) 
 Here is how much of TeX's memory you used:
- 27310 strings out of 476361
- 507657 string characters out of 5788046
- 1867993 words of memory out of 5000000
- 47005 multiletter control sequences out of 15000+600000
- 567854 words of font info for 112 fonts, out of 8000000 for 9000
+ 29066 strings out of 476361
+ 542184 string characters out of 5788046
+ 1866993 words of memory out of 5000000
+ 48563 multiletter control sequences out of 15000+600000
+ 557348 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,117p,1207b,770s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk><C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (45 pages, 6336849 bytes).
+ 99i,19n,117p,1207b,650s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\bchal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk><C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/bchal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (81 pages, 10382798 bytes).
 PDF statistics:
- 1217 PDF objects out of 1440 (max. 8388607)
- 148 named destinations out of 1000 (max. 500000)
- 482 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1405 PDF objects out of 1440 (max. 8388607)
+ 258 named destinations out of 1000 (max. 500000)
+ 438 words of extra memory for PDF output out of 10000 (max. 10000000)
 
