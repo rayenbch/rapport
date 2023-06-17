@@ -1,10 +1,10 @@
 
-\chapter{ Spécification et analyse des besoins}
+\chapter{  Analyse des besoins et conception}
 %\tableofcontents
 
 \textbf{\huge Introduction}\\[0.5cm] 
 
-L'objectif de l'étape de spécification et d'analyse des besoins est de déterminer les fonctionnalités différentes attendues du système. Au cours de ce chapitre, nous présentons d'abord les acteurs concernés dans notre système. Ensuite, nous allons illustrer les besoins fonctionnels et non fonctionnels. Ensuite nous allons détailler le product backlog de notre projet. Ces exigences seront exprimées enfin sous forme de diagramme de cas d'utilisation qui sera détaillé par des scénarios possibles.
+L'objectif de l'étape de spécification et d'analyse des besoins est de déterminer les fonctionnalités différentes attendues du système. Au cours de ce chapitre, nous présentons d'abord les acteurs concernés dans notre système. Ensuite, nous allons illustrer les besoins fonctionnels et non fonctionnels. Puis, nous allons détailler le product backlog de notre projet. Ces exigences seront exprimées enfin sous forme de diagramme de cas d'utilisation qui sera détaillé par des scénarios possibles.Par la suite,nous présentons la conception de notre application qui présente une étape fondamentale qui précède la réalisation par une description des différents diagrammes de séquence, classe et déploiement. Nous procédons ensuite à la définition de la méthodologie de conception. Et nous terminons par représenter l'architecture technique de notre projet.
 \section{\LARGE Acteurs}
 \texttt{}\\[0.1cm]
  En génie logiciel et plus particulièrement en UML, un acteur est une entité qui définit le rôle joué par un utilisateur ou par un système qui interagit avec le système modélisé\cite{12}.\\\texttt{}\\[0.01cm]%add url
@@ -317,6 +317,184 @@ Pour expliquer  le diagramme de cas d’utilisation, nous représentons la descr
             \caption{Description de cas d’utilisation:Gérer les artefacts d'application}
             \end{table}
             \end{center}
+  \section{\fontfamily{ptm}\selectfont\Large  Conception du système}
+
+Dans ce qui suit,nous allons présenter les différents diagrammes de conception. \\[0.1cm]
+            \subsection{\fontfamily{ptm}\selectfont\Large Diagramme de séquence global}
+         Les diagrammes de séquences sont la représentation graphique des interactions entre les acteurs et le système selon un ordre chronologique\cite{14}(voir figure 3.1).
+            % \begin{figure}[H]
+            %   \begin{center}
+            %   \centering
+            %       \includegraphics[height=25cm,width=18cm]{Squence.drawio.png}
+            
+            %   \end{center}
+              
+            %   \caption{Diagramme de séquence global}
+            
+            % \end{figure}
+            \begin{landscape}
+              \begin{figure}[htbp]
+                \centering
+                \includegraphics[width=24cm]{Squence.drawio.png} % Replace with your photo filename
+                \caption{Diagramme de séquence Global}
+              
+              \end{figure}
+            \end{landscape}
+            \subsection{\fontfamily{ptm}\selectfont\Large Diagramme de séquence Détaillé}
+            Pour une meilleure présentation et illustration de projet nous allons décrire les différents cas d'utilisations principaux avec leurs diagrammes de séquence détaillés.
+            \subsubsection{\fontfamily{ptm}\selectfont\scalefont{1.35}Diagramme de séquence «Configuration de l'architecture cloud»}
+            Nous détaillons ci-dessous les interactions du diagramme de séquence « Configuration de l'architecture cloud » 
+            \begin{figure}[H]
+                \begin{center}
+                \includegraphics[height=15cm,width=18cm]{seqd.drawio.png}
+                \end{center}
+                \caption{Diagramme de séquence « Configuration de l'architecture cloud » }
+                %\floatfoot{Source: (Citation command)}
+                % avec le package "floatrow"
+                \end{figure}
+                \subsubsection{\fontfamily{ptm}\selectfont\Large Diagramme de séquence « Configuration de cluster local » }
+                Nous détaillons ci-dessous les interactions de diagramme de séquence « Configuration de cluster local » (voir figure 3.3). 
+                \begin{figure}[H]
+                    \begin{center}
+                    \includegraphics[height=15cm,width=18cm]{SEQCLUSTER.png}
+                    \end{center}
+                    \caption{Diagramme de séquence « Configuration de cluster local »}
+                    %\floatfoot{Source: (Citation command)}
+                    % avec le package "floatrow"
+                    \end{figure}\subsubsection{\fontfamily{ptm}\selectfont\Large Diagramme de séquence « Configuration du pipeline » }
+            Nous détaillons ci-dessous les interactions de diagramme de séquence « Configuration du pipeline » (voir figure 3.4)  .
+            \begin{figure}[H]
+                \begin{center}
+                \includegraphics[height=15cm,width=18cm]{SEQPIPELINE.png}
+                \end{center}
+                \caption{Diagramme de séquence « Configuration du pipeline »}
+                %\floatfoot{Source: (Citation command)}
+                % avec le package "floatrow"
+                \end{figure}
+            
+\subsection{\fontfamily{ptm}\selectfont\Large Diagramme de classe}
+ Le diagramme de classes est un schéma utilisé en génie logiciel pour présenter les classes et les interfaces du système ainsi que leurs relations.La figure ci-dessous représente le 
+diagramme de classe de notre travail(voir figure 4.5)\cite{13}.
+\begin{figure}[H]
+  \begin{center}
+  
+      \includegraphics[width=18cm,height=18cm]{ClassDiagram.drawio.png}
+
+  \end{center}
+  
+  \caption{Diagramme de classe global}
+\end{figure}
+\subsection{\fontfamily{ptm}\selectfont\Large Diagramme de déploiement}
+ Un diagramme de déploiement est une vue statique qui sert à représenter l'utilisation de l'infrastructure physique par le système et la manière dont les composants du système sont répartis ainsi que leurs relations entre eux (voir figure 4.6)\cite{15}.
+\begin{figure}[H]
+  \begin{center}
+  
+    \fbox{\includegraphics[height=18cm,width=18cm]{deploiment-1.drawio.png}}
+
+  \end{center}
+  
+  \caption{Diagramme de déploiement global}
+\end{figure}
+%\section{\fontfamily{ptm}\selectfont\Large Méthodologie de conception}
+%\textsf{\fontfamily{ptm}\selectfont\scalefont{1.3}Il est indispensable de choisir un méthodologie de développement  et nous avons choisir la méthodologie (CI/CD). \\
+%L’Intégration Continue (CI) et la Livraison Continue (CD) regroupent un ensemble de principes et de pratiques permettant aux équipes de développement d’apporter des changements au code informatique de façon plus fiable et plus fréquente.\\
+%L’implémentation du CI/CD est au coeur des méthodologies de développement agile et DevOps. Elle permet aux équipes de développement logiciel de se focaliser sur les besoins de l’entreprise, la qualité du code et la cybersécurité. Les étapes de déploiement sont automatisées.Ainsi , les pipelines CI/CD permettent aux entreprises d’améliorer fréquemment leurs applications tout en s’appuyant sur un processus de livraison fiable. La standardisation des builds, les tests, l’automatisation du déploiement laissent les équipes se focaliser sur l’amélioration des applications plutôt que sur des détails techniques.\\
+%Cette pratique est idéale pour la méthode DevOps, car elle évite un mauvais alignement entre des développeurs désirant pousser le code trop fréquemment et les équipes ops en quête de stabilité des applications. L’automatisation permet de pousser des changements de code plus fréquemment, tandis que les configurations standardisées et le testing continu améliorent la stabilité.\cite{20}(Voir figure 4.7)}\\[0.1cm]
+%\begin{figure}[H]
+%  \begin{center}
+%  
+%      \fbox{\includegraphics[height=11cm,width=15cm]{CI-CD-fonctionnement.png}}
+%
+%  \end{center}
+%  
+%  \caption{Diagramme de déploiement global}
+%\end{figure}
+\section{\fontfamily{ptm}\selectfont\Large Architecture technologique de la solution}
+ Dans cette partie nous allons présenter l'architecture globale de notre projet(voir figure 3.8).
+\begin{landscape}
+  \begin{figure}[htbp]
+    \centering
+  \includegraphics[width=25cm,height=17cm]{GLOBALAWS.png}  
+    \caption{Architecture global}
+  \end{figure}
+\end{landscape}
+ Pour plus de clarté, nous allons diviser notre architecture globale en deux parties.\\
+\indent--Partie local: \\[0.02cm]
+La figure (figure: 3.9) représente les ressources utiliser localement dans le projet.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm,height=12.5cm]{LOCAL.drawio.png}
+
+  \caption{Partie local}
+\end{figure}
+
+\begin{tikzpicture}
+  \draw[fill=black] (2,2) circle (2pt);
+\end{tikzpicture} 
+ Le cluster local dans l’architecture globale fonctionne comme un environnement dédié pour les tests et le développement. Il est configuré et géré par l'ingénieur devops, qui dispose des droits et des permissions nécessaires. Le cluster local est composé de plusieurs composants clés qui facilitent le développement efficace et tester les flux de travail.     \\[0.02cm]
+ \indent
+ \begin{tikzpicture}
+  \draw[fill=black] (2,2) circle (2pt);
+\end{tikzpicture} 
+ Dans le cluster local, plusieurs nœuds ou machines virtuelles sont fournis pour créer un environnement similaire à la configuration de production. Ces nœuds exécutent des conteneurs ou d’autres outils de test, permettant possible de simuler le comportement et les performances de l’environnement de production localement. L’ingénieur de devons supervise la configuration et la gestion du cluster local, en assurant sa disponibilité et sa stabilité pour les activités de test et de développement.\\[0.02cm]
+ \indent
+ \begin{tikzpicture}
+  \draw[fill=black] (2,2) circle (2pt);
+\end{tikzpicture} 
+ Pour surveiller le cluster local, l’ingénieur devops déploie Grafana et Prometheus, qui fournissent des informations précieuses sur les performances et la santé du cluster. Ces outils de surveillance permettent de suivre l’utilisation des ressources, de détecter et de résoudre les problèmes rapidement, ce qui permet l’amélioration continue et l’optimisation de l’environnement de test local.\\[0.02cm]
+ \indent
+ \begin{tikzpicture}
+  \draw[fill=black] (2,2) circle (2pt);
+\end{tikzpicture}
+ L’ingénieur devops configure également un exécuteur local pour GitHub Actions. Cet exécuteur permet de déclencher des pipelines. Dans le cas de la branche principale, un pipeline démarre et les actions de déploiement nécessaires sont exécutées sur le cluster local. Cela permet l'ingénieur devops de valider les changements dans un environnement qui ressemble beaucoup à la configuration de production, assurant robustesse et fiabilité.
+ \\[0.02cm]
+ \indent
+ \begin{tikzpicture}
+  \draw[fill=black] (2,2) circle (2pt);
+\end{tikzpicture}
+L’ingénieur de devops configure l’environnement pour extraire les images de conteneurs d’un dépôt ECR privé, qui stocker et gérer les images de conteneurs. Les images du dépôt sont séparées par des versions telles que 1.0.0 , 0.0.1 pour les tests.
+ 
+ 
+\indent{\fontfamily{ptm}\selectfont\scalefont{1.3}--Partie AWS:} \\
+La figure ci-dessous représente les ressources cloud utiliser dans notre projet.
+\begin{figure}[H]
+
+
+  \includegraphics[width=18cm,height=14cm]{PARTIEEKS.drawio.png}
+  
+    \caption{Partie AWS}
+  \end{figure}
+  \indent
+  \begin{tikzpicture}
+   \draw[fill=black] (2,2) circle (2pt);
+ \end{tikzpicture}
+ Le cluster EKS se compose de nœuds de travail, qui sont des instances EC2 qui exécutent les conteneurs contenant la charge de travail de l’application. L’ingénieur de devops assure l’approvisionnement et la mise à l’échelle appropriés des nœuds de travailleurs en fonction des exigences de l’application et de la charge de travail. Cela implique de configurer des politiques de mise à l’échelle automatique pour ajuster automatiquement le nombre de nœuds de travail afin de gérer efficacement les différents charges de travail.
+ \\[0.01cm]
+ \indent
+ \begin{tikzpicture}
+  \draw[fill=black] (2,2) circle (2pt);
+\end{tikzpicture}
+Pour gérer le trafic entrant et le distribuer à travers les conteneurs du cluster EKS, un Load balancer est lancer pour aider à atteindre une haute disponibilité et une tolérance aux pannes en transférer les demandes vers les conteneurs, assurant ainsi une performance et une fiabilité optimales de l’application.
+\\[0.01cm]
+\indent
+\begin{tikzpicture}
+ \draw[fill=black] (2,2) circle (2pt);
+\end{tikzpicture}  
+Lorsque la branche EKS est déclenchée par des développeurs  leur code source, un pipeline dédié est lancé. Pour exécuter les actions de déploiement nécessaires sur le cluster EKS, un exécuteur configuré par l’ingénieur devops utilise son contexte et ses autorisations pour interagir efficacement avec le cluster. Cela permet un déploiement continu de l’application dans l’environnement de production hébergé sur le cluster EKS.
+\\[0.01cm]
+\indent
+\begin{tikzpicture}
+ \draw[fill=black] (2,2) circle (2pt);
+\end{tikzpicture}  
+Le surveillance du cluster EKS est également une responsabilité de l’ingénieur de devops. Prometheus installer sur EKS, fournissent des informations complètes sur les performances, l’utilisation des ressources et les paramètres de santé du cluster. Ce outil permettant à l’ingénieur de détecter et de résoudre rapidement les problèmes potentiels, assurant le bon fonctionnement de l’environnement de production.\\[0.3cm]
+
+\textbf{\huge Conclusion}
+  
+  Dans ce chapitre nous avons décrit les différents diagrammes de conception. Aussi, nous avons décrit la méthodologie de conception utiliser dans notre projet.Puis nous avons présenter l'architecture global qui expliquer la fonctionnement du projet. Dans le chapitre suivante nous passerons à la phase de réalisation du projet.
+
+          
 \textbf{\huge Conclusion}\\[0.5cm] 
 
 Dans ce chapitre nous avons décrit les différents besoins fonctionnels et non fonctionnels. Aussi, nous avons décrit les diffèrents acteurs de système.Puis nous avons présentée les "User stories" en forme d'un product backlog.Enfin, nous avons illustrée les cas d'utilisation avec des diagrammes. Dans le chapitre suivant nous passerons à la phase de conception du projet.

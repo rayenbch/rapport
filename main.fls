@@ -565,9 +565,9 @@ INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.
 INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
-OUTPUT main.toc
 INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+OUTPUT main.toc
 INPUT .\main.lof
 INPUT main.lof
 INPUT main.lof
@@ -753,10 +753,6 @@ INPUT .\Usecase6.drawio.png
 INPUT .\Usecase6.drawio.png
 INPUT .\Usecase6.drawio.png
 INPUT .\Usecase6.drawio.png
-INPUT .\autre_partie.tex
-INPUT autre_partie.tex
-INPUT .\autre_partie.tex
-INPUT autre_partie.tex
 INPUT .\Squence.drawio.png
 INPUT .\Squence.drawio.png
 INPUT Squence.drawio.png
@@ -802,13 +798,6 @@ INPUT .\deploiment-1.drawio.png
 INPUT .\deploiment-1.drawio.png
 INPUT .\deploiment-1.drawio.png
 INPUT .\deploiment-1.drawio.png
-INPUT .\CI-CD-fonctionnement.png
-INPUT .\CI-CD-fonctionnement.png
-INPUT CI-CD-fonctionnement.png
-INPUT .\CI-CD-fonctionnement.png
-INPUT .\CI-CD-fonctionnement.png
-INPUT .\CI-CD-fonctionnement.png
-INPUT .\CI-CD-fonctionnement.png
 INPUT .\GLOBALAWS.png
 INPUT .\GLOBALAWS.png
 INPUT GLOBALAWS.png
@@ -830,41 +819,6 @@ INPUT .\PARTIEEKS.drawio.png
 INPUT .\PARTIEEKS.drawio.png
 INPUT .\PARTIEEKS.drawio.png
 INPUT .\PARTIEEKS.drawio.png
-INPUT .\sprint2.tex
-INPUT sprint2.tex
-INPUT .\sprint2.tex
-INPUT sprint2.tex
-INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\t1qtm.fd
-INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\t1qtm.fd
-INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\t1qtm.fd
-INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\t1qtm.fd
-INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmr.tfm
-INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmr.tfm
-INPUT .\configuration pipline use case.png
-INPUT .\configuration pipline use case.png
-INPUT configuration pipline use case.png
-INPUT .\configuration pipline use case.png
-INPUT .\configuration pipline use case.png
-INPUT .\configuration pipline use case.png
-INPUT .\configuration pipline use case.png
-INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\tex-gyre\q-ec.enc
-INPUT .\sequencepipeline.drawio.png
-INPUT sequencepipeline.drawio.png
-INPUT .\sequencepipeline.drawio.png
-INPUT .\sequencepipeline.drawio.png
-INPUT .\sequencepipeline.drawio.png
-INPUT .\sequencepipeline.drawio.png
-INPUT .\sprint3.tex
-INPUT sprint3.tex
-INPUT .\sprint3.tex
-INPUT sprint3.tex
-INPUT .\usecasedet.drawio.png
-INPUT .\usecasedet.drawio.png
-INPUT usecasedet.drawio.png
-INPUT .\usecasedet.drawio.png
-INPUT .\usecasedet.drawio.png
-INPUT .\usecasedet.drawio.png
-INPUT .\usecasedet.drawio.png
 INPUT .\main.bbl
 INPUT main.bbl
 INPUT .\main.bbl
@@ -902,8 +856,6 @@ INPUT C:\Users\bchal\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
 INPUT C:\Users\bchal\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
 INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
-INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qtmr.pfb
-INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qtmr.pfb
 INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\bchal\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb

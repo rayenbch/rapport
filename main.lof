@@ -19,19 +19,12 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Cas d'utilisation:Gérer la configuration de déploiement\relax }}{23}{figure.caption.20}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Cas d'utilisation:Gérer liste des images Docker\relax }}{24}{figure.caption.22}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Cas d'utilisation:Gérer les artefacts d'application\relax }}{25}{figure.caption.24}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme de séquence Global\relax }}{28}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme de séquence « Configuration de l'architecture cloud » \relax }}{29}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagramme de séquence « Configuration de cluster local »\relax }}{30}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagramme de séquence « Configuration de pipeline »\relax }}{31}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagramme de classe global\relax }}{32}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagramme de déploiement global\relax }}{33}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagramme de déploiement global\relax }}{34}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Architecture global\relax }}{36}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Partie local\relax }}{37}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Partie AWS\relax }}{39}{figure.caption.35}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces cas d’utilisation"Configuration de la Pipline"\relax }}{43}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces diagramme de séqunce"Configuration de la Pipline"\relax }}{44}{figure.caption.38}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces cas d’utilisation"Déploiement de l'application sur le cluster."\relax }}{47}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Diagramme de séquence Global\relax }}{27}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagramme de séquence « Configuration de l'architecture cloud » \relax }}{28}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Diagramme de séquence « Configuration de cluster local »\relax }}{29}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Diagramme de séquence « Configuration du pipeline »\relax }}{30}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Diagramme de classe global\relax }}{31}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Diagramme de déploiement global\relax }}{32}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Architecture global\relax }}{33}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Partie local\relax }}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Partie AWS\relax }}{35}{figure.caption.34}%

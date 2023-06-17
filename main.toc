@@ -24,7 +24,7 @@
 \contentsline {subsection}{\numberline {1.6.3}\fontfamily {ptm}\selectfont \Large Google Cloud Platform DevOps }{12}{subsection.1.6.3}%
 \contentsline {section}{\numberline {1.7}\fontfamily {ptm}\selectfont \Large Critique des solutions existantes}{13}{section.1.7}%
 \contentsline {section}{\numberline {1.8}\fontfamily {ptm}\selectfont \Large Solution proposée}{14}{section.1.8}%
-\contentsline {chapter}{\numberline {2} Spécification et analyse des besoins}{16}{chapter.2}%
+\contentsline {chapter}{\numberline {2} Analyse des besoins et conception}{16}{chapter.2}%
 \contentsline {section}{\numberline {2.1}\LARGE Acteurs}{16}{section.2.1}%
 \contentsline {section}{\numberline {2.2}\LARGE Besoins fonctionnels}{17}{section.2.2}%
 \contentsline {section}{\numberline {2.3}\LARGE Besoins non-fonctionnels}{17}{section.2.3}%
@@ -35,24 +35,12 @@
 \contentsline {subsection}{\numberline {2.5.3}\Large Cas d'utilisation"Gérer la configuration de déploiement"}{23}{subsection.2.5.3}%
 \contentsline {subsubsection}{\numberline {2.5.3.1}\Large Cas utilisation"Gérer liste des images Docker"}{24}{subsubsection.2.5.3.1}%
 \contentsline {subsection}{\numberline {2.5.4}\Large Cas utilisation"Gérer les artefacts d'application"}{25}{subsection.2.5.4}%
-\contentsline {chapter}{\numberline {3}\Large Conception}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}\fontfamily {ptm}\selectfont \Large Conception du système}{27}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}\fontfamily {ptm}\selectfont \Large Diagramme de séquence global}{27}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}\fontfamily {ptm}\selectfont \Large Diagramme de séquence Détaillée}{29}{subsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}\fontfamily {ptm}\selectfont \scalefont {1.35}Diagramme de séquence «Configuration de l'architecture cloud»}{29}{subsubsection.3.1.2.1}%
-\contentsline {subsubsection}{\numberline {3.1.2.2}\fontfamily {ptm}\selectfont \Large Diagramme de séquence « Configuration de cluster local » }{29}{subsubsection.3.1.2.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.3}\fontfamily {ptm}\selectfont \Large Diagramme de séquence « Configuration de pipeline » }{30}{subsubsection.3.1.2.3}%
-\contentsline {subsection}{\numberline {3.1.3}\fontfamily {ptm}\selectfont \Large Diagramme de classe}{31}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}\fontfamily {ptm}\selectfont \Large Diagramme de déploiement}{32}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}\fontfamily {ptm}\selectfont \Large Méthodologie de conception}{33}{section.3.2}%
-\contentsline {section}{\numberline {3.3}\fontfamily {ptm}\selectfont \Large Architecture technologique de la solution}{35}{section.3.3}%
-\contentsline {section}{\numberline {3.4}\fontfamily {ptm}\selectfont \Large Conclusion}{40}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Sprint2:Configuration de la Pipline.}{41}{chapter.4}%
-\contentsline {section}{\numberline {4.1}\LARGE Objectif du Sprint}{42}{section.4.1}%
-\contentsline {section}{\numberline {4.2}\LARGE Architecture Détaillée}{42}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}\Large Diagramme Cas d'utilisation Détaillée}{42}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}\Large Diagramme de sequance Détaillée}{44}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}Sprint3: Déploiement de l'application sur le cluster.}{45}{chapter.5}%
-\contentsline {section}{\numberline {5.1}\LARGE Objectif du Sprint}{46}{section.5.1}%
-\contentsline {section}{\numberline {5.2}\LARGE Architecture Détaillée}{46}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}\Large Diagramme Cas d'utilisation Détaillée}{46}{subsection.5.2.1}%
+\contentsline {section}{\numberline {2.6}\fontfamily {ptm}\selectfont \Large Conception du système}{26}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}\fontfamily {ptm}\selectfont \Large Diagramme de séquence global}{26}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}\fontfamily {ptm}\selectfont \Large Diagramme de séquence Détaillé}{28}{subsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.1}\fontfamily {ptm}\selectfont \scalefont {1.35}Diagramme de séquence «Configuration de l'architecture cloud»}{28}{subsubsection.2.6.2.1}%
+\contentsline {subsubsection}{\numberline {2.6.2.2}\fontfamily {ptm}\selectfont \Large Diagramme de séquence « Configuration de cluster local » }{28}{subsubsection.2.6.2.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.3}\fontfamily {ptm}\selectfont \Large Diagramme de séquence « Configuration du pipeline » }{29}{subsubsection.2.6.2.3}%
+\contentsline {subsection}{\numberline {2.6.3}\fontfamily {ptm}\selectfont \Large Diagramme de classe}{30}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}\fontfamily {ptm}\selectfont \Large Diagramme de déploiement}{31}{subsection.2.6.4}%
+\contentsline {section}{\numberline {2.7}\fontfamily {ptm}\selectfont \Large Architecture technologique de la solution}{32}{section.2.7}%

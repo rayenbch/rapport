@@ -26,10 +26,10 @@ Dans ce qui suit,nous allons présenter les différents diagrammes de conception
               
               \end{figure}
             \end{landscape}
-            \subsection{\fontfamily{ptm}\selectfont\Large Diagramme de séquence Détaillée}
-            \textsf{\fontfamily{ptm}\selectfont\scalefont{1.3}Pour une meilleure présentation et illustration de projet nous allons décrire les différents cas d'utilisations principales avec son diagramme de séquence détaillée.}
+            \subsection{\fontfamily{ptm}\selectfont\Large Diagramme de séquence Détaillé}
+            Pour une meilleure présentation et illustration de projet nous allons décrire les différents cas d'utilisations principaux avec leurs diagrammes de séquence détaillés.
             \subsubsection{\fontfamily{ptm}\selectfont\scalefont{1.35}Diagramme de séquence «Configuration de l'architecture cloud»}
-            \textsf{\fontfamily{ptm}\scalefont{1.3}Nous détaillons ci-dessous les interactions diagramme de séquence « Configuration de l'architecture cloud » }
+            Nous détaillons ci-dessous les interactions du diagramme de séquence « Configuration de l'architecture cloud » 
             \begin{figure}[H]
                 \begin{center}
                 \includegraphics[height=15cm,width=18cm]{seqd.drawio.png}
@@ -39,7 +39,7 @@ Dans ce qui suit,nous allons présenter les différents diagrammes de conception
                 % avec le package "floatrow"
                 \end{figure}
                 \subsubsection{\fontfamily{ptm}\selectfont\Large Diagramme de séquence « Configuration de cluster local » }
-                \textsf{\fontfamily{ptm}\scalefont{1.3}Nous détaillons ci-dessous les interactions de diagramme de séquence « Configuration de cluster local » (voir figure 4.3) }
+                Nous détaillons ci-dessous les interactions de diagramme de séquence « Configuration de cluster local » (voir figure 3.3). 
                 \begin{figure}[H]
                     \begin{center}
                     \includegraphics[height=15cm,width=18cm]{SEQCLUSTER.png}
@@ -47,20 +47,20 @@ Dans ce qui suit,nous allons présenter les différents diagrammes de conception
                     \caption{Diagramme de séquence « Configuration de cluster local »}
                     %\floatfoot{Source: (Citation command)}
                     % avec le package "floatrow"
-                    \end{figure}\subsubsection{\fontfamily{ptm}\selectfont\Large Diagramme de séquence « Configuration de pipeline » }
-            \textsf{\fontfamily{ptm}\scalefont{1.3}Nous détaillons ci-dessous les interactions de diagramme de séquence « Configuration de pipeline » (voir figure 4.4)  }
+                    \end{figure}\subsubsection{\fontfamily{ptm}\selectfont\Large Diagramme de séquence « Configuration du pipeline » }
+            Nous détaillons ci-dessous les interactions de diagramme de séquence « Configuration du pipeline » (voir figure 3.4)  .
             \begin{figure}[H]
                 \begin{center}
                 \includegraphics[height=15cm,width=18cm]{SEQPIPELINE.png}
                 \end{center}
-                \caption{Diagramme de séquence « Configuration de pipeline »}
+                \caption{Diagramme de séquence « Configuration du pipeline »}
                 %\floatfoot{Source: (Citation command)}
                 % avec le package "floatrow"
                 \end{figure}
             
 \subsection{\fontfamily{ptm}\selectfont\Large Diagramme de classe}
-\textsf{\fontfamily{ptm}\selectfont\scalefont{1.3} Le diagramme de classes est un schéma utilisé en génie logiciel pour présenter les classes et les interfaces du système ainsi que leurs relations.La figure ci-dessous représente le 
-diagramme de classe de notre travail(voir figure 4.5)\cite{13}}
+ Le diagramme de classes est un schéma utilisé en génie logiciel pour présenter les classes et les interfaces du système ainsi que leurs relations.La figure ci-dessous représente le 
+diagramme de classe de notre travail(voir figure 4.5)\cite{13}.
 \begin{figure}[H]
   \begin{center}
   
@@ -71,7 +71,7 @@ diagramme de classe de notre travail(voir figure 4.5)\cite{13}}
   \caption{Diagramme de classe global}
 \end{figure}
 \subsection{\fontfamily{ptm}\selectfont\Large Diagramme de déploiement}
-\textsf{\fontfamily{ptm}\selectfont\scalefont{1.3} Un diagramme de déploiement est une vue statique qui sert à représenter l'utilisation de l'infrastructure physique par le système et la manière dont les composants du système sont répartis ainsi que leurs relations entre eux (voir figure 4.6).\cite{15}}
+ Un diagramme de déploiement est une vue statique qui sert à représenter l'utilisation de l'infrastructure physique par le système et la manière dont les composants du système sont répartis ainsi que leurs relations entre eux (voir figure 4.6)\cite{15}.
 \begin{figure}[H]
   \begin{center}
   
@@ -81,22 +81,22 @@ diagramme de classe de notre travail(voir figure 4.5)\cite{13}}
   
   \caption{Diagramme de déploiement global}
 \end{figure}
-\section{\fontfamily{ptm}\selectfont\Large Méthodologie de conception}
-\textsf{\fontfamily{ptm}\selectfont\scalefont{1.3}Il est indispensable de choisir un méthodologie de développement  et nous avons choisir la méthodologie (CI/CD). \\
-L’Intégration Continue (CI) et la Livraison Continue (CD) regroupent un ensemble de principes et de pratiques permettant aux équipes de développement d’apporter des changements au code informatique de façon plus fiable et plus fréquente.\\
-L’implémentation du CI/CD est au coeur des méthodologies de développement agile et DevOps. Elle permet aux équipes de développement logiciel de se focaliser sur les besoins de l’entreprise, la qualité du code et la cybersécurité. Les étapes de déploiement sont automatisées.Ainsi , les pipelines CI/CD permettent aux entreprises d’améliorer fréquemment leurs applications tout en s’appuyant sur un processus de livraison fiable. La standardisation des builds, les tests, l’automatisation du déploiement laissent les équipes se focaliser sur l’amélioration des applications plutôt que sur des détails techniques.\\
-Cette pratique est idéale pour la méthode DevOps, car elle évite un mauvais alignement entre des développeurs désirant pousser le code trop fréquemment et les équipes ops en quête de stabilité des applications. L’automatisation permet de pousser des changements de code plus fréquemment, tandis que les configurations standardisées et le testing continu améliorent la stabilité.\cite{20}(Voir figure 4.7)}\\[0.1cm]
-\begin{figure}[H]
-  \begin{center}
-  
-      \fbox{\includegraphics[height=11cm,width=15cm]{CI-CD-fonctionnement.png}}
-
-  \end{center}
-  
-  \caption{Diagramme de déploiement global}
-\end{figure}
+%\section{\fontfamily{ptm}\selectfont\Large Méthodologie de conception}
+%\textsf{\fontfamily{ptm}\selectfont\scalefont{1.3}Il est indispensable de choisir un méthodologie de développement  et nous avons choisir la méthodologie (CI/CD). \\
+%L’Intégration Continue (CI) et la Livraison Continue (CD) regroupent un ensemble de principes et de pratiques permettant aux équipes de développement d’apporter des changements au code informatique de façon plus fiable et plus fréquente.\\
+%L’implémentation du CI/CD est au coeur des méthodologies de développement agile et DevOps. Elle permet aux équipes de développement logiciel de se focaliser sur les besoins de l’entreprise, la qualité du code et la cybersécurité. Les étapes de déploiement sont automatisées.Ainsi , les pipelines CI/CD permettent aux entreprises d’améliorer fréquemment leurs applications tout en s’appuyant sur un processus de livraison fiable. La standardisation des builds, les tests, l’automatisation du déploiement laissent les équipes se focaliser sur l’amélioration des applications plutôt que sur des détails techniques.\\
+%Cette pratique est idéale pour la méthode DevOps, car elle évite un mauvais alignement entre des développeurs désirant pousser le code trop fréquemment et les équipes ops en quête de stabilité des applications. L’automatisation permet de pousser des changements de code plus fréquemment, tandis que les configurations standardisées et le testing continu améliorent la stabilité.\cite{20}(Voir figure 4.7)}\\[0.1cm]
+%\begin{figure}[H]
+%  \begin{center}
+%  
+%      \fbox{\includegraphics[height=11cm,width=15cm]{CI-CD-fonctionnement.png}}
+%
+%  \end{center}
+%  
+%  \caption{Diagramme de déploiement global}
+%\end{figure}
 \section{\fontfamily{ptm}\selectfont\Large Architecture technologique de la solution}
-\textsf{\fontfamily{ptm}\selectfont\scalefont{1.3} Dans cette partie nous allons présenter l'architecture globale de notre projet.(voir figure 4.8)}
+ Dans cette partie nous allons présenter l'architecture globale de notre projet(voir figure 3.8).
 \begin{landscape}
   \begin{figure}[htbp]
     \centering
@@ -104,18 +104,18 @@ Cette pratique est idéale pour la méthode DevOps, car elle évite un mauvais a
     \caption{Architecture global}
   \end{figure}
 \end{landscape}
-\textsf{\fontfamily{ptm}\selectfont\scalefont{1.3} Pour plus de clarté, nous allons diviser notre architecture globale en deux parties.\\
+ Pour plus de clarté, nous allons diviser notre architecture globale en deux parties.\\
 \indent--Partie local: \\[0.02cm]
-La figure (figure: 4.9) représente les ressources utiliser localement dans le projet.
-}
-\linebreak
+La figure (figure: 3.9) représente les ressources utiliser localement dans le projet.
+
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=15cm,height=12.5cm]{LOCAL.drawio.png}
 
   \caption{Partie local}
 \end{figure}
-\indent{\fontfamily{ptm}\selectfont\scalefont{1.3}
+
 \begin{tikzpicture}
   \draw[fill=black] (2,2) circle (2pt);
 \end{tikzpicture} 
@@ -141,9 +141,9 @@ La figure (figure: 4.9) représente les ressources utiliser localement dans le p
   \draw[fill=black] (2,2) circle (2pt);
 \end{tikzpicture}
 L’ingénieur de devops configure l’environnement pour extraire les images de conteneurs d’un dépôt ECR privé, qui stocker et gérer les images de conteneurs. Les images du dépôt sont séparées par des versions telles que 1.0.0 , 0.0.1 pour les tests.
- }
  
-\indent{\fontfamily{ptm}\selectfont\scalefont{1.3}--Partie AWS: \\
+ 
+\indent{\fontfamily{ptm}\selectfont\scalefont{1.3}--Partie AWS:} \\
 La figure ci-dessous représente les ressources cloud utiliser dans notre projet.
 \begin{figure}[H]
 
@@ -174,11 +174,12 @@ Lorsque la branche EKS est déclenchée par des développeurs  leur code source,
 \begin{tikzpicture}
  \draw[fill=black] (2,2) circle (2pt);
 \end{tikzpicture}  
-Le surveillance du cluster EKS est également une responsabilité de l’ingénieur de devops. Prometheus installer sur EKS, fournissent des informations complètes sur les performances, l’utilisation des ressources et les paramètres de santé du cluster. Ce outil permettant à l’ingénieur de détecter et de résoudre rapidement les problèmes potentiels, assurant le bon fonctionnement de l’environnement de production.
-}
- \section{\fontfamily{ptm}\selectfont\Large Conclusion}
- \textsf{\fontfamily{ptm}\selectfont\scalefont{1.3} Dans ce chapitre nous avons décrit les différents diagrammes de conception. Aussi, nous avons décrit la méthodologie de conception utiliser dans notre projet.Puis nous avons présenter l'architecture global qui expliquer la fonctionnement du projet. Dans le chapitre suivante nous passerons à la phase de réalisation du projet.
-}
+Le surveillance du cluster EKS est également une responsabilité de l’ingénieur de devops. Prometheus installer sur EKS, fournissent des informations complètes sur les performances, l’utilisation des ressources et les paramètres de santé du cluster. Ce outil permettant à l’ingénieur de détecter et de résoudre rapidement les problèmes potentiels, assurant le bon fonctionnement de l’environnement de production.\\[0.3cm]
+
+\textbf{\huge Conclusion}
+  
+  Dans ce chapitre nous avons décrit les différents diagrammes de conception. Aussi, nous avons décrit la méthodologie de conception utiliser dans notre projet.Puis nous avons présenter l'architecture global qui expliquer la fonctionnement du projet. Dans le chapitre suivante nous passerons à la phase de réalisation du projet.
+
 
 % \section{\LARGE Développement}
 
