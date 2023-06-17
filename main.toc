@@ -2,69 +2,69 @@
 \babel@toc {french}{}\relax 
 \babel@toc {french}{}\relax 
 \contentsline {chapter}{Introduction générale}{0}{chapter*.2}%
-\contentsline {chapter}{\numberline {1}\Large Cadre général du projet et étude de l'existant}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}\fontfamily {ptm}\selectfont \Large Société d’accueil }{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}\fontfamily {ptm}\selectfont \Large Problématique }{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}\fontfamily {ptm}\selectfont \Large Notions de base}{3}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}\fontfamily {ptm}\selectfont \Large Microservice}{4}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}\fontfamily {ptm}\selectfont \Large DevOps}{4}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}\fontfamily {ptm}\selectfont \Large Cloud}{5}{subsection.1.3.3}%
-\contentsline {subsubsection}{\numberline {1.3.3.1}\fontfamily {ptm}\selectfont \Large Modèles de services }{5}{subsubsection.1.3.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.3.2}\fontfamily {ptm}\selectfont \Large Les modèles de déploiement }{6}{subsubsection.1.3.3.2}%
-\contentsline {section}{\numberline {1.4}\fontfamily {ptm}\selectfont \Large Méthodologie de développement adoptée}{7}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}\fontfamily {ptm}\selectfont \Large Méthode agile }{7}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}\fontfamily {ptm}\selectfont \Large Présentation de la méthodologie Scrum}{8}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}\fontfamily {ptm}\selectfont \Large Acteurs de la méthode agile Scrum}{8}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}\fontfamily {ptm}\selectfont \Large Évènements de la méthode agile Scrum }{8}{subsection.1.4.4}%
-\contentsline {subsection}{\numberline {1.4.5} \fontfamily {ptm}\selectfont \Large Les artefacts}{9}{subsection.1.4.5}%
-\contentsline {section}{\numberline {1.5}\fontfamily {ptm}\selectfont \Large Planification des sprints}{9}{section.1.5}%
-\contentsline {section}{\numberline {1.6}\fontfamily {ptm}\selectfont \Large Les solutions existantes}{10}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}\fontfamily {ptm}\selectfont \Large Azure Devops}{10}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}\fontfamily {ptm}\selectfont \Large Amazon Web Service DevOps}{11}{subsection.1.6.2}%
-\contentsline {subsection}{\numberline {1.6.3}\fontfamily {ptm}\selectfont \Large Google Cloud Platform DevOps }{12}{subsection.1.6.3}%
-\contentsline {section}{\numberline {1.7}\fontfamily {ptm}\selectfont \Large Critique des solutions existantes}{13}{section.1.7}%
-\contentsline {section}{\numberline {1.8}\fontfamily {ptm}\selectfont \Large Solution proposée}{14}{section.1.8}%
-\contentsline {chapter}{\numberline {2} Analyse des besoins et conception}{16}{chapter.2}%
-\contentsline {section}{\numberline {2.1}\LARGE Acteurs}{16}{section.2.1}%
-\contentsline {section}{\numberline {2.2}\LARGE Besoins fonctionnels}{17}{section.2.2}%
-\contentsline {section}{\numberline {2.3}\LARGE Besoins non-fonctionnels}{17}{section.2.3}%
-\contentsline {section}{\numberline {2.4}\LARGE Product Backlog}{18}{section.2.4}%
-\contentsline {section}{\numberline {2.5}\Large Diagramme de cas d'utilisation Global}{19}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}\Large Cas d’utilisation "Gérer code source"}{21}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}\Large Cas d’utilisation "Suivi de la build d'application"}{22}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}\Large Cas d'utilisation"Gérer la configuration de déploiement"}{23}{subsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.3.1}\Large Cas utilisation"Gérer liste des images Docker"}{24}{subsubsection.2.5.3.1}%
-\contentsline {subsection}{\numberline {2.5.4}\Large Cas utilisation"Gérer les artefacts d'application"}{25}{subsection.2.5.4}%
-\contentsline {section}{\numberline {2.6}\fontfamily {ptm}\selectfont \Large Conception du système}{26}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}\fontfamily {ptm}\selectfont \Large Diagramme de séquence global}{26}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}\fontfamily {ptm}\selectfont \Large Diagramme de séquence Détaillé}{28}{subsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.1}\fontfamily {ptm}\selectfont \scalefont {1.35}Diagramme de séquence «Configuration de l'architecture cloud»}{28}{subsubsection.2.6.2.1}%
-\contentsline {subsubsection}{\numberline {2.6.2.2}\fontfamily {ptm}\selectfont \Large Diagramme de séquence « Configuration de cluster local » }{28}{subsubsection.2.6.2.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.3}\fontfamily {ptm}\selectfont \Large Diagramme de séquence « Configuration du pipeline » }{29}{subsubsection.2.6.2.3}%
-\contentsline {subsection}{\numberline {2.6.3}\fontfamily {ptm}\selectfont \Large Diagramme de classe}{30}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}\fontfamily {ptm}\selectfont \Large Diagramme de déploiement}{31}{subsection.2.6.4}%
-\contentsline {section}{\numberline {2.7}\fontfamily {ptm}\selectfont \Large Méthodologie de conception}{32}{section.2.7}%
-\contentsline {section}{\numberline {2.8}\fontfamily {ptm}\selectfont \Large Architecture technologique de la solution}{33}{section.2.8}%
-\contentsline {chapter}{\numberline {3}\Large Réalisation}{37}{chapter.3}%
-\contentsline {section}{\numberline {3.1}\fontfamily {ptm}\selectfont \Large Environnement de travail }{37}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}\fontfamily {ptm}\selectfont \Large Environnement matériel }{37}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}\fontfamily {ptm}\selectfont \Large Architecture technologique globale}{38}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}\fontfamily {ptm}\selectfont \Large Environnement Logiciel }{40}{subsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.3.1}\fontfamily {ptm}\selectfont \Large Environnement et technologie de développement }{41}{subsubsection.3.1.3.1}%
-\contentsline {subsection}{\numberline {3.1.4}\fontfamily {ptm}\selectfont \Large Langage Informatique }{43}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}\fontfamily {ptm}\selectfont \Large Environnement de Conception}{44}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}\fontfamily {ptm}\selectfont \Large Sprint1 :Configuration de l'architecture cloud}{44}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}\fontfamily {ptm}\selectfont \Large Configuration des ressources cloud}{44}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}\fontfamily {ptm}\selectfont \Large Configuration de cluster local}{48}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.1}\fontfamily {ptm}\selectfont \Large Provisionnement de les machines virtuelles}{49}{subsubsection.3.2.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2.2}\fontfamily {ptm}\selectfont \Large Configuration de Sonarqube}{58}{subsubsection.3.2.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.3}\fontfamily {ptm}\selectfont \Large Configuration de Nexus}{59}{subsubsection.3.2.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.2.4}\fontfamily {ptm}\selectfont \Large Outils des surveillances}{60}{subsubsection.3.2.2.4}%
-\contentsline {section}{\numberline {3.3}\fontfamily {ptm}\selectfont \Large Sprint2 :Configuration de pipeline}{62}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}\fontfamily {ptm}\selectfont \Large Création des pipelines}{62}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}\fontfamily {ptm}\selectfont \Large Configuration d'exécuteur local }{66}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}\fontfamily {ptm}\selectfont \Large Sprint3: Mise en place d'un systéme du monitoring}{69}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}\fontfamily {ptm}\selectfont \Large Configuration de Prometheus}{70}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}\fontfamily {ptm}\selectfont \Large Configuration de AlertManager}{70}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}\fontfamily {ptm}\selectfont \Large Configuration des Dashboards Grafana}{71}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}\fontfamily {ptm}\selectfont \Large Conclusion}{75}{section.3.5}%
+\contentsline {chapter}{\numberline {1}\Large Cadre général du projet et étude de l'existant}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}\fontfamily {ptm}\selectfont \Large Société d’accueil }{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}\fontfamily {ptm}\selectfont \Large Problématique }{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}\fontfamily {ptm}\selectfont \Large Notions de base}{2}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}\fontfamily {ptm}\selectfont \Large Microservice}{2}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}\fontfamily {ptm}\selectfont \Large DevOps}{3}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}\fontfamily {ptm}\selectfont \Large Cloud}{4}{subsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.3.1}\fontfamily {ptm}\selectfont \Large Modèles de services }{4}{subsubsection.1.3.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.3.2}\fontfamily {ptm}\selectfont \Large Les modèles de déploiement }{5}{subsubsection.1.3.3.2}%
+\contentsline {section}{\numberline {1.4}\fontfamily {ptm}\selectfont \Large Méthodologie de développement adoptée}{6}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}\fontfamily {ptm}\selectfont \Large Méthode agile }{6}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}\fontfamily {ptm}\selectfont \Large Présentation de la méthodologie Scrum}{6}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}\fontfamily {ptm}\selectfont \Large Acteurs de la méthode agile Scrum}{6}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}\fontfamily {ptm}\selectfont \Large Évènements de la méthode agile Scrum }{7}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5} \fontfamily {ptm}\selectfont \Large Les artefacts}{7}{subsection.1.4.5}%
+\contentsline {section}{\numberline {1.5}\fontfamily {ptm}\selectfont \Large Planification des sprints}{8}{section.1.5}%
+\contentsline {section}{\numberline {1.6}\fontfamily {ptm}\selectfont \Large Les solutions existantes}{9}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}\fontfamily {ptm}\selectfont \Large Azure Devops}{9}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}\fontfamily {ptm}\selectfont \Large Amazon Web Service DevOps}{10}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}\fontfamily {ptm}\selectfont \Large Google Cloud Platform DevOps }{11}{subsection.1.6.3}%
+\contentsline {section}{\numberline {1.7}\fontfamily {ptm}\selectfont \Large Critique des solutions existantes}{12}{section.1.7}%
+\contentsline {section}{\numberline {1.8}\fontfamily {ptm}\selectfont \Large Solution proposée}{13}{section.1.8}%
+\contentsline {chapter}{\numberline {2} Analyse des besoins et conception}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}\LARGE Acteurs}{14}{section.2.1}%
+\contentsline {section}{\numberline {2.2}\LARGE Besoins fonctionnels}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.3}\LARGE Besoins non-fonctionnels}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.4}\LARGE Product Backlog}{16}{section.2.4}%
+\contentsline {section}{\numberline {2.5}\Large Diagramme de cas d'utilisation Global}{17}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}\Large Cas d’utilisation "Gérer code source"}{18}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}\Large Cas d’utilisation "Suivi de la build d'application"}{19}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}\Large Cas d'utilisation"Gérer la configuration de déploiement"}{20}{subsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.3.1}\Large Cas utilisation"Gérer liste des images Docker"}{21}{subsubsection.2.5.3.1}%
+\contentsline {subsection}{\numberline {2.5.4}\Large Cas utilisation"Gérer les artefacts d'application"}{22}{subsection.2.5.4}%
+\contentsline {section}{\numberline {2.6}\fontfamily {ptm}\selectfont \Large Conception du système}{23}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}\fontfamily {ptm}\selectfont \Large Diagramme de séquence global}{23}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}\fontfamily {ptm}\selectfont \Large Diagramme de séquence Détaillé}{25}{subsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.1}\fontfamily {ptm}\selectfont \scalefont {1.35}Diagramme de séquence «Configuration de l'architecture cloud»}{25}{subsubsection.2.6.2.1}%
+\contentsline {subsubsection}{\numberline {2.6.2.2}\fontfamily {ptm}\selectfont \Large Diagramme de séquence « Configuration de cluster local » }{25}{subsubsection.2.6.2.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.3}\fontfamily {ptm}\selectfont \Large Diagramme de séquence « Configuration du pipeline » }{26}{subsubsection.2.6.2.3}%
+\contentsline {subsection}{\numberline {2.6.3}\fontfamily {ptm}\selectfont \Large Diagramme de classe}{27}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}\fontfamily {ptm}\selectfont \Large Diagramme de déploiement}{28}{subsection.2.6.4}%
+\contentsline {section}{\numberline {2.7}\fontfamily {ptm}\selectfont \Large Méthodologie de conception}{29}{section.2.7}%
+\contentsline {section}{\numberline {2.8}\fontfamily {ptm}\selectfont \Large Architecture technologique de la solution}{30}{section.2.8}%
+\contentsline {chapter}{\numberline {3}\Large Réalisation}{34}{chapter.3}%
+\contentsline {section}{\numberline {3.1}\fontfamily {ptm}\selectfont \Large Environnement de travail }{34}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}\fontfamily {ptm}\selectfont \Large Environnement matériel }{34}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}\fontfamily {ptm}\selectfont \Large Architecture technologique globale}{34}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}\fontfamily {ptm}\selectfont \Large Environnement Logiciel }{36}{subsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}\fontfamily {ptm}\selectfont \Large Environnement et technologie de développement }{37}{subsubsection.3.1.3.1}%
+\contentsline {subsection}{\numberline {3.1.4}\fontfamily {ptm}\selectfont \Large Langage Informatique }{39}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}\fontfamily {ptm}\selectfont \Large Environnement de Conception}{40}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}\fontfamily {ptm}\selectfont \Large Sprint1 :Configuration de l'architecture cloud}{40}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}\fontfamily {ptm}\selectfont \Large Configuration des ressources cloud}{40}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}\fontfamily {ptm}\selectfont \Large Configuration de cluster local}{44}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}\fontfamily {ptm}\selectfont \Large Provisionnement de les machines virtuelles}{45}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}\fontfamily {ptm}\selectfont \Large Configuration de Sonarqube}{54}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}\fontfamily {ptm}\selectfont \Large Configuration de Nexus}{55}{subsubsection.3.2.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.2.4}\fontfamily {ptm}\selectfont \Large Outils des surveillances}{56}{subsubsection.3.2.2.4}%
+\contentsline {section}{\numberline {3.3}\fontfamily {ptm}\selectfont \Large Sprint2 :Configuration de pipeline}{57}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}\fontfamily {ptm}\selectfont \Large Création des pipelines}{58}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}\fontfamily {ptm}\selectfont \Large Configuration d'exécuteur local }{62}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}\fontfamily {ptm}\selectfont \Large Sprint3: Mise en place d'un systéme du monitoring}{65}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}\fontfamily {ptm}\selectfont \Large Configuration de Prometheus}{65}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}\fontfamily {ptm}\selectfont \Large Configuration de AlertManager}{66}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}\fontfamily {ptm}\selectfont \Large Configuration des Dashboards Grafana}{67}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}\fontfamily {ptm}\selectfont \Large Conclusion}{71}{section.3.5}%
